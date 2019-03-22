@@ -19,7 +19,7 @@ body {
 /*End COLORS */
 
 *{
-    margin: auto;
+    
     user-select: none;
     font-family: 'Lilita One', cursive;
     width: 100%;
@@ -119,7 +119,7 @@ nav ul{
 .banner{
     padding: 80px;
     position: center;
-    display: block;
+    display: grid;
 }
 
 .header{
