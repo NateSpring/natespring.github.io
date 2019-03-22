@@ -107,6 +107,8 @@ nav ul{
         main{
     width: 100%;
     }
+        li{
+            width: 50%;
         }
         
 /* END NAV BAR*/
