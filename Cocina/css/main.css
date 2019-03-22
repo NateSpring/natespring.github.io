@@ -97,13 +97,14 @@ nav ul{
             position: fixed;
             top: 0;
             padding-right: 25px;
+              width: 100%;
           }
           .showing{
             max-height: 20em;
             position: fixed;
             top: 50px;
           }
-body{
+        main{
     width: 100%;
     }
         }
@@ -177,8 +178,9 @@ img{
     width: 50%;
     height: auto;
 }
-.grid{
+/*.grid{
     display: grid;
 grid-column: span 2;
+}*/
 
-}
+
