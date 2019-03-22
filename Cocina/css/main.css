@@ -1,0 +1,181 @@
+
+body {
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+
+}
+/* COLORS */
+.primary-color{
+    color: #d3323f;
+    
+}
+.secondary-color{
+    color:#FF9F1C
+;
+}
+
+/*End COLORS */
+
+*{
+    margin: auto;
+    user-select: none;
+    font-family: 'Lilita One', cursive;
+}
+#phone {
+    padding: 19px;
+    margin: auto;
+    border: 5px solid;
+}
+nav{
+position: fixed;
+z-index:5;
+width: 100%;
+box-shadow: #333 5px 5px 5px 5px;
+
+}
+nav ul{
+    width: 100%;
+      background-color: #d3323f;
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      transition: all 1s ease-in-out;
+      box-shadow: #333 5px 5px 5px 5px;
+
+    }
+     
+    nav ul li{
+      display: inline-block;
+      padding: 20px;
+    }
+     
+    nav ul li a{
+      text-decoration: none;
+      color: inherit;
+    }
+    .menu-bars{
+      width: 100%;
+      background-color: #d3323f;
+      text-align: right;   
+      box-shadow: border-box;   
+      padding: 20px 20px;   
+      cursor: pointer;  
+      color: #fff;    
+      display: none;
+    
+    }
+    .menu-bars .fas{
+      margin-right: 0px;
+    
+    }
+
+    /* MOBILE RESPONSE */
+    @media screen and (max-width: 812px){         
+          nav ul{
+            max-height: 0px;
+            position: fixed;
+            top: 2em;
+            box-shadow: #333 5px 5px 5px 5px;
+
+          }
+          nav ul li{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+          }
+          nav ul li:hover{
+            background-color: rgb(167, 108, 0);
+          }
+          .menu-bars{
+            display: block;
+            position: fixed;
+            top: 0;
+            padding-right: 25px;
+          }
+          .showing{
+            max-height: 20em;
+            position: fixed;
+            top: 50px;
+          }
+
+        }
+        
+/* END NAV BAR*/
+
+
+
+
+.banner{
+    padding: 80px;
+    position: center;
+    display: block;
+}
+
+.header{
+    min-height: calc(100vh - 150px);
+    background: url(../images/Cocina.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head-text{
+   text-align: center;
+   font-size: 6rem;
+   text-shadow: 4px 4px 2px #FDCA35;
+   
+}
+
+
+h1{
+text-shadow: 2.5px 2.5px #333;
+}
+.banner h1{
+    
+    border-top: 10px dotted #FF9F1C;
+    border-bottom: 10px dotted #FF9F1C;
+}
+
+.content-wrap{
+    background-color: #FF9F1C
+;
+    color: #d3323f;
+    height: auto;
+    width: 100%;
+
+}
+ul, #phone{
+    list-style: none;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #333 5px 5px 5px 5px;
+    text-shadow: #333 5px 5px 5px 5px;
+
+}
+.carousel {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: #333 3px 3px 3px 3px;
+
+}
+.container-fluid{
+    width: 50%;
+    height: auto;
+}
+.grid{
+    display: grid;
+grid-column: span 2;
+
+}

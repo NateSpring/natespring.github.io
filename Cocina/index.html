@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Cocina Michoacana</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/main.css">
+     <script src="js/all.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+     <!--Dash of jQuery to hide the responsive NavBar-->
+     <script>
+
+          $(document).ready(function () {
+               $(".menu-bars").on("click", function () {
+                    $("nav ul").toggleClass("showing");
+               });
+
+               $("nav ul li").on("click", function () {
+                    $("nav ul").removeClass("showing");
+               });
+          });
+
+     </script>
+     <!--End-->
+
+<body>
+     <nav>
+          <div class="menu-bars">
+               <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <ul style="font-size: 35px">
+               <li><a href="#section-h" class="nav-link">Home</a></li>
+               <li><a href="#section-a" class="nav-link">Hours</a></li>
+               <li><a href="#section-m" class="nav-link">Menu</a></li>
+               <li><a href="#section-b" class="nav-link">Contact</a></li>
+
+          </ul>
+     </nav>
+
+     <!--Header Section-->
+     <section id="section-h">
+          <header class="header">
+               <div class="banner">
+                    <h1 class="primary-color head-text ">Cocina Michoacana</h1>
+                    <h3 class="primary-color head-text">Sonora, Ca </h3>
+               </div>
+          </header>
+     </section>
+     <!--End Header Section-->
+     <main id="main">
+          <section id="section-a" class="grid">
+               <div class="content-wrap">
+                    <h1>Hours:</h1>
+                    <ul>
+                         <li>Mon:10:00-9:00</li>
+                         <li>Tuesday: 10:00 - 9:00</li>
+                         <li>Wednesday: 10:00 - 9:00</li>
+                         <li>Thursday: 10:00 - 9:00</li>
+                         <li>Friday: 10:00 - 9:30 </li>
+                         <li>Saturday: 9:00 - 9:30</li>
+                         <li>Sunday: 9:00 - 9:00</li>
+                    </ul>
+                    <section id="section-b" class="grid">
+                         <h1>Phone:</h1>
+                         <a id="phone" href="(209) 533-3841" style="font-size:35px" id="phone">Lower
+                              Sonora<br>(209)533-3841</a>
+                         <a id="phone" href="(209) 532-3842" style="font-size:35px" id="phone">East
+                              Sonora<br>(209)533-3841</a>
+                         <a id="phone" href="(209) 962-6651" style="font-size:35px" id="phone">Groveland
+                              <br>(209)533-3841</a>
+
+                    </section>
+                    <div class="content-wrap">
+                         <div class="maps">
+                              <h1>Find Us Here:</h1>
+                              <iframe
+                                   src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d201504.09061551746!2d-120.31780371442298!3d37.89534112255141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scocina+michoacana!5e0!3m2!1sen!2sus!4v1553000332113"
+                                   width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                         </div>
+                    </div>
+          </section>
+          <section id="section-m">
+               <div class="content-wrap">
+                    <h1>Please feel free to come in and view a current Menu incase of changes</h1>
+                    <img class="menupic" src="../images/cocinamenu.jpeg">
+               </div>
+          </section>
+          <!--Carousel-->
+          <section id="section-c">
+               <div class="container-fluid">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                         <!-- Indicators -->
+                         <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                         </ol>
+
+                         <!-- Wrapper for slides -->
+                         <div class="carousel-inner">
+
+                              <div class="item active">
+                                   <img src="images/plate1.jpg">
+                              </div>
+                              <div class="item">
+                                   <img src="images/plate2.jpg">
+                              </div>
+                              <div class="item">
+                                   <img src="images/plate3.jpg">
+                              </div>
+                              <div class="item">
+                                   <img src="images/inside.jpg">
+                              </div>
+                         </div>
+
+                         <!-- Arrow controls -->
+                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left"></span>
+                              <span class="sr-only">Previous</span>
+                         </a>
+                         <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right"></span>
+                              <span class="sr-only">Next</span>
+                         </a>
+                    </div>
+               </div>
+          </section>
+          <!--Footer with Yelp/Facebook/GitHubPlug links-->
+          <footer id="main-footer" class="grid">
+               <div class="info-icons p-2">
+                    <h6 class="primary-color">Also Find Us Here:</h6>
+                    <a href="#" class="ml-2 primary-color"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.yelp.com/biz/cocina-michoacana-sonora" class="ml-2 primary-color"><i
+                              class="fab fa-yelp fa-2x"></i></a>
+                    <br>
+                    <h8>Created By <a href="https://natespring.github.io/">Nathan Spring</a></h8>
+               </div>
+          </footer>
+     </main>
+</body>
+
+</html>
