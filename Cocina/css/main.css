@@ -107,7 +107,8 @@ nav ul{
     width: 100%;
     }
         #phone{
-            width: 70%;
+            width: 50%;
+            font-size: 1rem;
         }
         
 /* END NAV BAR*/
