@@ -42,7 +42,7 @@ nav ul{
       color: #fff;
       padding: 0;
       text-align: center;
-      margin: 0;
+      margin: auto;
       transition: all 1s ease-in-out;
       box-shadow: #333 5px 5px 5px 5px;
 
@@ -80,7 +80,7 @@ nav ul{
             position: fixed;
             top: 2em;
             box-shadow: #333 5px 5px 5px 5px;
-
+margin: auto;
           }
           nav ul li{
             box-sizing: border-box;
