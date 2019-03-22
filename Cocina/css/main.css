@@ -95,7 +95,7 @@ nav ul{
             display: block;
             position: fixed;
             top: 0;
-            justify-content: center;
+           margin: 0 auto;
             
           }
           .showing{
@@ -107,8 +107,7 @@ nav ul{
     width: 100%;
     }
         #phone{
-            width: 50%;
-            font-size: 15px;
+            width: 74%;
         }
         
 /* END NAV BAR*/
