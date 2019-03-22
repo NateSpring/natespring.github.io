@@ -79,9 +79,7 @@ nav ul{
             max-height: 0px;
             position: fixed;
             top: 2em;
-            box-shadow: #333 5px 5px 5px 5px;
-margin: auto;
-          }
+         }
           nav ul li{
             box-sizing: border-box;
             width: 100%;
