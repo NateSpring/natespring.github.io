@@ -95,7 +95,7 @@ nav ul{
             display: block;
             position: fixed;
             top: 0;
-           margin: 0 auto;
+    
             
           }
           .showing{
@@ -103,9 +103,9 @@ nav ul{
             position: fixed;
             top: 50px;
           }
-        .header{
+        .banner{
     width: 100%;
-            margin: 0 auto;
+      display: grid;     
     }
         #phone{
             display: grid;
