@@ -103,8 +103,9 @@ nav ul{
             position: fixed;
             top: 50px;
           }
-        .header, .banner, main{
+        .header{
     width: 100%;
+            margin: 0 auto;
     }
         #phone{
             display: grid;
