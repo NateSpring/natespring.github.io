@@ -95,8 +95,8 @@ nav ul{
             display: block;
             position: fixed;
             top: 0;
-            padding-right: 30px;
-              width: 100%;
+            justify-content: center;
+            
           }
           .showing{
             max-height: 20em;
