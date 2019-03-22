@@ -106,8 +106,9 @@ nav ul{
         main{
     width: 100%;
     }
-        #phone{
-            width: 74%;
+        .grid{
+            display: grid;
+            grid-column: span 1;
         }
         
 /* END NAV BAR*/
