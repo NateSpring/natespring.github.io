@@ -1,0 +1,171 @@
+<html>
+<title> Web Drummer </title>
+<body id="body1">
+<h1 id="webd">Web Drummer</h1>
+
+<p id="inst">Instructions: Press the corresponding keyboard key to play the listed sound. Enjoy!</p>
+        <style>
+            
+            
+           #webd {
+color: red;
+font-size: 55;
+text-align: center;
+text-shadow: 0 0 .75rem black;
+background: darkgrey;
+box-shadow: grey;
+border: .4rem solid black;
+  border-radius: .5rem;
+           } 
+           p {
+               font-size: 30px;
+
+           }
+
+           html {
+  font-size: 10px;
+  background: grey;
+  background-size: cover;
+ 
+}
+.html2 {
+  font-size: 20px;
+  background: red; 
+}
+
+body,html {
+  margin: 0;
+  padding: 10;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 10vh;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .5s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.25);
+  border-color: red;
+  box-shadow: 0 0 1rem red;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: red;
+}
+
+
+
+
+</style>
+
+<div class="keys">
+
+<div data-key="65" class="key">
+    <kbd>A</kbd>
+    <span class="sound">Clap</span>
+</div>
+
+<div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Hihat</span>
+    </div>
+    <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">OpenHat</span>
+            </div>
+
+            <div data-key="71" class="key">
+                    <kbd>G</kbd>
+                    <span class="sound">Boom</span>
+                </div>
+                <div data-key="72" class="key">
+                        <kbd>H</kbd>
+                        <span class="sound">Ride</span>
+                    </div>
+                    <div data-key="74" class="key">
+                            <kbd>J</kbd>
+                        
+                            <span class="sound">Snare</span>
+                        </div>
+                        <div data-key="75" class="key">
+                                <kbd>K</kbd>
+                                <span class="sound">Tom</span>
+                            </div>
+                            <div data-key="76" class="key">
+                                    <kbd>L</kbd>
+                                    <span class="sound">Tink</span>
+                                </div>
+
+                            </div>
+
+
+<audio data-key="65" src="sounds/clap.wav"></audio>
+<audio data-key="83" src="sounds/hihat.wav"></audio>
+<audio data-key="68" src="sounds/kick.wav"></audio>
+<audio data-key="70" src="sounds/openhat.wav"></audio>
+<audio data-key="71" src="sounds/boom.wav"></audio>
+<audio data-key="72" src="sounds/ride.wav"></audio>
+<audio data-key="74" src="sounds/snare.wav"></audio>
+<audio data-key="75" src="sounds/tom.wav"></audio>
+<audio data-key="76" src="sounds/tink.wav"></audio>
+
+
+
+
+
+<!--JavaScipt BELOW-->
+<script>
+window.addEventListener('keydown', function(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    const background = document.querySelector(`html[data-key="${e.keyCode}"]`);
+
+    if (!audio) return;
+    audio.currentTime = 0;
+    audio.play();
+    
+key.classList.add('playing');
+html.classList.add('html2');
+});
+
+function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    this.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+</script>
+</body>
+
+<footer> </footer>

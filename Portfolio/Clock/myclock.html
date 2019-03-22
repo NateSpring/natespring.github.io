@@ -1,0 +1,137 @@
+<html>
+<body>
+<h1 id="spaceclock">The Space Time Clock</h1>
+
+<!--The Clock itself-->
+<div class="clock">
+    
+    <div class="face"></div>
+        
+    
+    <div class="hand hour-hand"style="transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);"></div>
+    <div class="hand min-hand"
+    style="transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);"></div>
+    <div class="hand second-hand"
+    style="transform: rotate(90deg);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);"></div>
+    
+   
+</div>
+
+<div id="digihour" class="digi"></div>
+<div id="digimin" class="digi"></div>
+<div id="digisec" class="digi"></div>
+
+
+<style>
+html {
+    background: url(https://apod.nasa.gov/apod/image/1705/Arp273Main_HubblePestana_3079.jpg);
+background-size: cover;
+position: relative;
+}
+
+#spaceclock {
+color: rgb(255, 153, 0);
+}
+.clock {
+background: black;
+    position: absolute;
+    top:10%;
+    bottom: 10%;
+    left:25%;
+    right: 25%;
+border-radius: 50% 50% 50% 50%;
+opacity: .50;
+width: 40%;
+height: auto;
+}
+.face {
+    border-radius: 50%;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    bottom: 46%;
+    
+    left: 45%;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+
+}
+.hand {
+width:  50%;
+height: 9px;
+background: rgb(255, 153, 0);
+position: absolute;
+bottom: 50%;
+border-radius: 0% 0% 0% 100%;
+transform-origin: 100%;
+transform: rotate(90deg);
+}
+.second-hand{
+    animation-name: color;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color:rgb(255, 153, 0);
+    opacity: 100%;
+  }
+  25% {
+opacity: 75%;
+  }
+  50% {
+    background-color: white;
+    opacity: 50%;
+  }
+  75%{
+      opacity: 25%;
+  }
+  100 {
+    background-color: white;
+    opacity: 0%;
+  }
+}
+
+
+
+</style>
+
+
+
+
+<script>
+
+const hourHand = document.querySelector('.hour-hand');
+const minuteHand = document.querySelector('.min-hand');
+const secondHand = document.querySelector('.second-hand');   
+
+function setDate() {
+    const now = new Date();
+    
+    const hour = now.getHours();
+    const minute = now.getMinutes();
+    const seconds = now.getSeconds();
+    
+    const hourDegrees = ((hour / 12) * 360) + 90;
+    const minuteDegrees =  ((minute / 60) * 360) + 90;
+    const secondsDegrees = ((seconds / 60) * 360) + 90;
+    
+    hourHand.style.transform = `rotate(${hourDegrees}deg`;
+    minuteHand.style.transform = `rotate(${minuteDegrees}deg`;
+    secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+    
+console.log(seconds);
+console.log(minute);
+console.log(hour);
+}
+setInterval(setDate, 1000);
+
+
+</script>
+
+</body>
+</html>
