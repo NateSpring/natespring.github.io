@@ -178,9 +178,8 @@ img{
     width: 50%;
     height: auto;
 }
-/*.grid{
+.grid{
     display: grid;
 grid-column: span 2;
-}*/
-
+}
 
