@@ -103,7 +103,7 @@ nav ul{
             position: fixed;
             top: 50px;
           }
-        main{
+        .header, .banner, main{
     width: 100%;
     }
         #phone{
