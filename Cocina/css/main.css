@@ -1,7 +1,7 @@
 
 body {
     color: #333;
-    font-size: 1.1em;
+    width: 100%;
     text-align: center;
     font-family: 'Lilita One', cursive;
 
@@ -106,9 +106,8 @@ nav ul{
         main{
     width: 100%;
     }
-        .grid{
-            display: grid;
-            grid-column: span 1;
+        #phone{
+            margin: 0 auto;
         }
         
 /* END NAV BAR*/
