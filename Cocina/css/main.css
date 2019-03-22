@@ -107,7 +107,7 @@ nav ul{
     width: 100%;
     }
         #phone{
-            margin: 0 auto;
+            display: grid;
         }
         
 /* END NAV BAR*/
