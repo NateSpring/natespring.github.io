@@ -173,10 +173,7 @@ img{
     box-shadow: #333 3px 3px 3px 3px;
 
 }
-.container-fluid{
-    width: 75%;
-    height: auto;
-}
+
 .grid{
     display: grid;
 grid-column: span 1;
