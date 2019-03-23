@@ -178,6 +178,6 @@ img{
 }
 .grid{
     display: grid;
-grid-column: span 2;
+grid-column: span 1;
 
 }
