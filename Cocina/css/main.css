@@ -1,7 +1,7 @@
 
 body {
     color: #333;
-    font-size: 1.1em;
+    font-size: 1em;
     text-align: center;
     font-family: 'Lilita One', cursive;
 
@@ -19,12 +19,11 @@ body {
 /*End COLORS */
 
 *{
-    margin: auto;
     user-select: none;
     font-family: 'Lilita One', cursive;
 }
 #phone {
-    padding: 19px;
+    padding: 10px;
     margin: auto;
     border: 5px solid;
 }
@@ -74,13 +73,13 @@ nav ul{
     }
 
     /* MOBILE RESPONSE */
-    @media screen and (max-width: 850px){         
+    @media screen and (max-width: 812px){         
           nav ul{
             max-height: 0px;
             position: fixed;
-            top: 2em;
+            top: 1.8em;
             box-shadow: #333 5px 5px 5px 5px;
-
+z-index: 3;
           }
           nav ul li{
             box-sizing: border-box;
@@ -102,10 +101,10 @@ nav ul{
             position: fixed;
             top: 50px;
           }
-          body{
-              width: 100%;
+          *{
+            overflow-x: auto;          
+          }
         }
-        
 /* END NAV BAR*/
 
 
