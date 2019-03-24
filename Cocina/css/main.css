@@ -18,6 +18,7 @@ width: 100vw;
 /*End COLORS */
 
 *{
+  margin: auto;
   user-select: none;
   font-family: 'Lilita One', cursive;
 }
@@ -176,5 +177,6 @@ img{
         }
         *{
           width: 100vw;
+          margin: auto;
         }
       }
