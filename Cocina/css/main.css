@@ -19,12 +19,10 @@ body {
 /*End COLORS */
 
 *{
-    margin: auto;
     user-select: none;
     font-family: 'Lilita One', cursive;
 }
 #phone {
-    padding: 19px;
     margin: auto;
     border: 5px solid;
 }
@@ -40,9 +38,7 @@ nav ul{
       background-color: #d3323f;
       overflow: hidden;
       color: #fff;
-      padding: 0;
       text-align: center;
-      margin: 0;
       transition: all 1s ease-in-out;
       box-shadow: #333 5px 5px 5px 5px;
 
@@ -68,13 +64,10 @@ nav ul{
       display: none;
     
     }
-    .menu-bars .fas{
-      margin-right: 0px;
-    
-    }
+  
 
     /* MOBILE RESPONSE */
-    @media screen and (max-width: 850px){         
+    @media screen and (max-width: 812px){         
           nav ul{
             max-height: 0px;
             position: fixed;
@@ -85,7 +78,6 @@ nav ul{
           nav ul li{
             box-sizing: border-box;
             width: 100%;
-            padding: 0px;
             text-align: center;
           }
           nav ul li:hover{
@@ -94,8 +86,6 @@ nav ul{
           .menu-bars{
             display: block;
             position: fixed;
-            top: 0;
-            padding-right: 25px;
             width: 100%;
           }
           .showing{
@@ -140,7 +130,6 @@ body{
 }
 .head-text{
    text-align: center;
-   font-size: 4rem;
    text-shadow: 4px 4px 2px #FDCA35;
    
 }
@@ -158,13 +147,11 @@ text-shadow: 2.5px 2.5px #333;
 .content-wrap{
     background-color: #FF9F1C;
     color: #d3323f;
-    height: auto;
     width: 100%;
 
 }
 ul, #phone{
     list-style: none;
-    font-size: 3rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: #333 5px 5px 5px 5px;
@@ -184,8 +171,3 @@ img{
 
 }
 
-.grid{
-    display: grid;
-grid-column: 1;
-
-}
