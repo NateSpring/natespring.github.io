@@ -96,7 +96,7 @@ nav ul{
 }
 .head-text{
  text-align: center;
- font-size: 6rem;
+ font-size: 4rem;
  text-shadow: 4px 4px 2px #FDCA35;
 
 }
@@ -112,10 +112,8 @@ text-shadow: 2.5px 2.5px #333;
 }
 
 .content-wrap{
-  background-color: #FF9F1C
-;
+  background-color: #FF9F1C;
   color: #d3323f;
-  height: auto;
   width: 100%;
 
 }
@@ -144,10 +142,8 @@ img{
   width: 50%;
   height: auto;
 }
-.grid{
-  display: grid;
-grid-column: span 2;
-
+#section-b{
+  background-color: #FF9F1C;
 }
 
 
@@ -182,6 +178,5 @@ grid-column: span 2;
         }
         section{
           width: 100%;
-          display: grid;
         }
       }
