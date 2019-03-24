@@ -121,11 +121,12 @@ text-shadow: 2.5px 2.5px #333;
 }
 ul, #phone{
   list-style: none;
-  font-size: 1rem;
+  font-size: 35px;
   background-color: white;
   border-radius: 8px;
   box-shadow: #333 5px 5px 5px 5px;
   text-shadow: #333 5px 5px 5px 5px;
+  width: 100%;
 
 }
 .carousel {
@@ -141,13 +142,15 @@ img{
 
 }
 .container-fluid{
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 #section-b{
   background-color: #FF9F1C;
 }
-
+section{
+          width: 100%;
+        }
 
 /* MOBILE RESPONSE */
   @media screen and (max-width: 812px){         
@@ -177,9 +180,6 @@ img{
           max-height: 20em;
           position: fixed;
           top: 50px;
-        }
-        section{
-          width: 100%;
         }
         .content-wrap{
           width: 100%;
