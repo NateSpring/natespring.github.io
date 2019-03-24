@@ -109,7 +109,9 @@ nav ul{
          .container-fluid{
            width: 100%;
          }
-
+section{
+  width: 100%;
+}
         }
         
 /* END NAV BAR*/
@@ -184,6 +186,6 @@ img{
 
 .grid{
     display: grid;
-grid-column: span 2;
+grid-column: 1;
 
 }
