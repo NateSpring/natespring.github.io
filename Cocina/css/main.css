@@ -173,10 +173,9 @@ img{
           top: 50px;
         }
         body{
-          width: 100%;
-          display: block;
+          width: 100vw;
         }
         ul, #phone{
-          font-size: 5em;
+          font-size: 2em;
         }
       }
