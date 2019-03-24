@@ -96,6 +96,7 @@ nav ul{
             position: fixed;
             top: 0;
             padding-right: 25px;
+            width: 100%;
           }
           .showing{
             max-height: 20em;
@@ -105,6 +106,10 @@ nav ul{
          body{
            width: 100%;
          }
+         .container-fluid{
+           width: 100%;
+         }
+
         }
         
 /* END NAV BAR*/
