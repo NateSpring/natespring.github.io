@@ -28,6 +28,8 @@ body {
   padding: 19px;
   margin: auto;
   border: 5px solid;
+  font-size: 35px;
+  
 }
 nav{
 position: fixed;
@@ -179,7 +181,7 @@ img{
         section{
           width: 100%;
         }
-        #phone{
-          font-size: 1rem;
+        .content-wrap{
+          width: 100%;
         }
       }
