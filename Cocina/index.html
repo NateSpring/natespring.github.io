@@ -16,17 +16,14 @@
      <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
      <!--Dash of jQuery to hide the responsive NavBar-->
      <script>
-
           $(document).ready(function () {
                $(".menu-bars").on("click", function () {
                     $("nav ul").toggleClass("showing");
                });
-
                $("nav ul li").on("click", function () {
                     $("nav ul").removeClass("showing");
                });
           });
-
      </script>
      <!--End-->
 
@@ -55,7 +52,7 @@
      </section>
      <!--End Header Section-->
      <main id="main">
-          <section id="section-a">
+          <section id="section-a" class="grid">
                <div class="content-wrap">
                     <h1>Hours:</h1>
                     <ul>
@@ -67,7 +64,9 @@
                          <li>Saturday: 9:00 - 9:30</li>
                          <li>Sunday: 9:00 - 9:00</li>
                     </ul>
-                    <section id="section-b">
+                    </section>
+
+                    <section id="section-b" class="grid">
                          <h1>Phone:</h1>
                          <a id="phone" href="(209) 533-3841" style="font-size:35px" id="phone">Lower
                               Sonora<br>(209)533-3841</a>
@@ -85,16 +84,15 @@
                                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                          </div>
                     </div>
-          </section>
           <section id="section-m">
                <div class="content-wrap">
                     <h1>Please feel free to come in and view a current Menu incase of changes</h1>
-                    <img class="menupic" src="images/cocinamenu.jpeg">
+                    <img class="menupic" src="../images/cocinamenu.jpeg">
                </div>
           </section>
           <!--Carousel-->
           <section id="section-c">
-               <div class="container">
+               <div class="container-fluid">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                          <!-- Indicators -->
                          <ol class="carousel-indicators">
@@ -107,16 +105,16 @@
                          <div class="carousel-inner">
 
                               <div class="item active">
-                                   <img src="images/plate1.JPG">
+                                   <img src="images/plate1.jpg">
                               </div>
                               <div class="item">
-                                   <img src="images/plate2.JPG">
+                                   <img src="images/plate2.jpg">
                               </div>
                               <div class="item">
-                                   <img src="images/plate3.JPG">
+                                   <img src="images/plate3.jpg">
                               </div>
                               <div class="item">
-                                   <img src="images/inside.JPG">
+                                   <img src="images/inside.jpg">
                               </div>
                          </div>
 
