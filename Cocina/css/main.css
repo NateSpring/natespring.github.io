@@ -28,8 +28,6 @@ body {
   padding: 19px;
   margin: auto;
   border: 5px solid;
-  font-size: 35px;
-  
 }
 nav{
 position: fixed;
@@ -126,7 +124,7 @@ ul, #phone{
   border-radius: 8px;
   box-shadow: #333 5px 5px 5px 5px;
   text-shadow: #333 5px 5px 5px 5px;
-  width: 100%;
+  display: inline-block;
 
 }
 .carousel {
@@ -142,15 +140,13 @@ img{
 
 }
 .container-fluid{
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 #section-b{
   background-color: #FF9F1C;
 }
-section{
-          width: 100%;
-        }
+
 
 /* MOBILE RESPONSE */
   @media screen and (max-width: 812px){         
@@ -159,7 +155,7 @@ section{
           position: fixed;
           top: 2em;
           box-shadow: #333 5px 5px 5px 5px;
-
+display: block;
         }
         nav ul li{
           box-sizing: border-box;
@@ -181,7 +177,11 @@ section{
           position: fixed;
           top: 50px;
         }
-        .content-wrap{
+        body{
           width: 100%;
+          display: block;
+        }
+        #phone{
+          font-size: 35px;
         }
       }
