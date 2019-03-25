@@ -4,7 +4,7 @@ body {
   color: #333;
   text-align: center;
   font-family: 'Lilita One', cursive;
-width: 100vw;
+  width: 100%;
 }
 /* COLORS */
 .primary-color{
@@ -23,7 +23,7 @@ width: 100vw;
   font-family: 'Lilita One', cursive;
 }
 #phone {
-  padding: 19px;
+  padding-top: 19px;
   margin: auto;
   border: 5px solid;
   
@@ -36,13 +36,13 @@ box-shadow: #333 5px 5px 5px 5px;
 
 }
 nav ul{
-  width: 100%;
+    width: 100%;
     background-color: #d3323f;
     overflow: hidden;
     color: #fff;
     padding: 0;
+    margin: auto;
     text-align: center;
-    margin: 0;
     transition: all 1s ease-in-out;
     box-shadow: #333 5px 5px 5px 5px;
 
@@ -50,7 +50,6 @@ nav ul{
 
   nav ul li{
     display: inline-block;
-    padding: 20px;
   }
 
   nav ul li a{
@@ -62,11 +61,11 @@ nav ul{
     background-color: #d3323f;
     text-align: right;   
     box-shadow: border-box;   
-    padding: 20px 20px;   
     cursor: pointer;  
     color: #fff;    
     display: none;
-
+    padding-top: 45px;
+    z-index: 3;
   }
   .menu-bars .fas{
     margin-right: 0px;
@@ -75,7 +74,7 @@ nav ul{
 
 
 .banner{
-  padding: 80px;
+  padding-top: 80px;
   position: center;
   display: block;
 }
@@ -105,7 +104,7 @@ nav ul{
   background-color: #FF9F1C;
   color: #d3323f;
   width: 100vw;
-  text-shadow: 2.5px 2.5px #333;
+  text-shadow: 2px 2px #333;
 
 
 }
@@ -129,19 +128,16 @@ img{
   width: 100%;
   height: auto;
   box-shadow: #333 3px 3px 3px 3px;
+}
 
-}
-.container-fluid{
-  width: 50%;
-  height: auto;
-}
-#section-b{
+#section{
   background-color: #FF9F1C;
 }
 
 
 /* MOBILE RESPONSE */
-  @media screen and (max-width: 812px){         
+  @media screen and (max-width: 812px){   
+    
         nav ul{
           max-height: 0px;
           position: fixed;
@@ -162,7 +158,6 @@ img{
           display: block;
           position: fixed;
           top: 0;
-          padding-right: 25px;
         }
         .showing{
           max-height: 20em;
@@ -170,13 +165,14 @@ img{
           top: 50px;
         }
         body{
-          width: 100vw;
+          width: 100%;
         }
         ul, #phone{
           font-size: 2em;
         }
-        *{
-          width: 100vw;
-          margin: auto;
+        .head-text, .banner, .maps{
+          margin: 0 auto;
+          width: 100%;
+          display: grid;
         }
       }
