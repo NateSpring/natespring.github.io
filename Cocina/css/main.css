@@ -64,7 +64,7 @@ nav ul{
     cursor: pointer;  
     color: #fff;    
     display: none;
-    padding-top: 45px;
+    padding-top: 35px;
     z-index: 3;
   }
   .menu-bars .fas{
@@ -141,7 +141,7 @@ img{
         nav ul{
           max-height: 0px;
           position: fixed;
-          top: 2em;
+          top: 1em;
           box-shadow: #333 5px 5px 5px 5px;
           display: block;
         }
