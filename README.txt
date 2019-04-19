@@ -1,1 +1,1 @@
-Welcome to my Portfolio page. It's purpose is to display some of the HTML, CSS, and JavaScript projects I've worked on. Thanks for taking a look!
+Hello and welcome to my portfolio! The purpose of this portfolio is to display my acquired skills and knowledge of web development. Thanks for stopping by and don't forget to check my source code! -Nate
