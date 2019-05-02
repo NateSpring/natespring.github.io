@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Rattle Scan</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="/SerpentSearch/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="banner">
+            <img class="bannerpic" src="/SerpentSearch/media/RattleScanwTextCrop.png">
+        </div>
+    </header>
+
+    <div class="maincontainer">
+        <p id="info">Add a recent rattlesnake sighting below to help others be on the look out in specific areas!</p>
+        <div id="map"></div>
+        <input id="input" class="input" type="text" placeholder="Add Rattlesnake Spotting">
+        <div class="mediablock">
+            <h1>Rattlesnake info</h1>
+            <p>Rattlesnakes are a group of venomous snakes of the genera Crotalus and Sistrurus[1] of the subfamily
+                Crotalinae (the pit vipers). The scientific name Crotalus is derived from the Greek κρόταλον, meaning
+                "castanet".[2] The name Sistrurus is the Latinized form of the Greek word for "tail rattler"
+                (Σείστρουρος, seistrouros) and shares its root with the ancient Egyptian musical instrument the sistrum,
+                a type of rattle.[3] The 36 known species of rattlesnakes have between 65 and 70 subspecies,[4] all
+                native to the Americas, ranging from southern Alberta and Saskatchewan and southern British Columbia in
+                Canada to central Argentina.
+
+                Rattlesnakes are predators that live in a wide array of habitats, hunting small animals such as birds
+                and rodents.
+
+                Rattlesnakes receive their name from the rattle located at the end of their tails, which makes a loud
+                rattling noise when vibrated that deters predators or serves as a warning to passers-by.[5] However,
+                rattlesnakes fall prey to hawks, weasels, king snakes, and a variety of other species. Rattlesnakes are
+                heavily preyed upon as neonates, while they are still weak and immature. Large numbers of rattlesnakes
+                are killed by humans. Rattlesnake populations in many areas are severely threatened by habitat
+                destruction, poaching, and extermination campaigns.
+
+                Rattlesnakes are the leading contributor to snakebite injuries in North America. However, rattlesnakes
+                rarely bite unless provoked or threatened; if treated promptly, the bites are seldom fatal. More
+                information can be found <a href="https://en.wikipedia.org/wiki/Rattlesnake">HERE</a>.</p>
+            <audio controls>
+                <source src="/SerpentSearch/media/rattles.mp3" type="audio/mp3">
+                Your browser does not support the audio element, Sorry!
+            </audio>
+            <img src="/SerpentSearch/media/rs1.jpg">
+
+        </div>
+        <footer>Nate Spring 2019 - RattleScan</footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsWuM8rn6YpxXw-nUvkFqp2ODfd-T7qnE
+    &libraries=places&callback=initAutocomplete" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+
+ html, body {
+     height: 100%;
+     margin: 0;
+     padding: 5px;
+     background-image: url('/SerpentSearch/media/fields.jpg');
+     background-attachment: fixed;
+ }
+
+ header {
+     width: 100%;
+     height: auto;
+     border-radius: 5px;
+     margin: 0;
+     padding: 0;
+ }
+
+ .banner {
+     width: 100%;
+     height: 40%;
+ }
+
+ .bannerpic {
+     display: block;
+     width: 50%;
+     height: auto;
+     color: blue;
+     margin: auto;
+ }
+
+ .maincontainer {
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+ }
+
+ #info {
+     font-size: 2em;
+     text-align: center;
+     color: beige;
+     background-color: tan;
+     border-radius: 5px;
+     border-top: 4px solid black;
+     margin: 0;
+     text-shadow: 2px 2px black;
+ }
+
+ .input {
+     width: 50%;
+     height: 7.5%;
+     border: 2px solid black;
+     font-size: 1.5em;
+     text-align: center;
+     float: left;
+ }
+
+ #map {
+     height: 60%;
+     width: 100%;
+     border: 4px solid black;
+ }
+
+ .mediablock {
+     display: grid;
+     width: 100%;
+     background-color: tan;
+     text-align: center;
+     justify-items: center;
+ }
+ .mediablock > img{
+     width: 50%;
+     height: auto;
+     border-radius: 7px;
+ }
+
+ footer {
+     text-align: center;
+     font-size: 2em;
+ }
+
+ @media only screen and (max-width: 600px) {
+     #map {
+         float: none;
+         width: 100%;
+     }
+ }

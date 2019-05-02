@@ -1,32 +1,32 @@
 
-
 body {
-  color: #333;
-  text-align: center;
-  font-family: 'Lilita One', cursive;
-  width: 100%;
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+
 }
 /* COLORS */
 .primary-color{
-  color: #d3323f;
-
+    color: #d3323f;
+    
 }
 .secondary-color{
-  color:#FF9F1C;
+    color:#FF9F1C
+;
 }
 
 /*End COLORS */
 
 *{
-  margin: auto;
-  user-select: none;
-  font-family: 'Lilita One', cursive;
+    margin: auto;
+    user-select: none;
+    font-family: 'Lilita One', cursive;
 }
 #phone {
-  padding-top: 19px;
-  margin: auto;
-  border: 5px solid;
-  
+    padding: 19px;
+    margin: auto;
+    border: 5px solid;
 }
 nav{
 position: fixed;
@@ -37,142 +37,145 @@ box-shadow: #333 5px 5px 5px 5px;
 }
 nav ul{
     width: 100%;
-    background-color: #d3323f;
-    overflow: hidden;
-    color: #fff;
-    padding: 0;
-    margin: auto;
-    text-align: center;
-    transition: all 1s ease-in-out;
-    box-shadow: #333 5px 5px 5px 5px;
+      background-color: #d3323f;
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      transition: all 1s ease-in-out;
+      box-shadow: #333 5px 5px 5px 5px;
 
-  }
+    }
+     
+    nav ul li{
+      display: inline-block;
+      padding: 20px;
+    }
+     
+    nav ul li a{
+      text-decoration: none;
+      color: inherit;
+    }
+    .menu-bars{
+      width: 100%;
+      background-color: #d3323f;
+      text-align: right;   
+      box-shadow: border-box;   
+      padding: 20px 20px;   
+      cursor: pointer;  
+      color: #fff;    
+      display: none;
+    
+    }
+    .menu-bars .fas{
+      margin-right: 0px;
+    
+    }
 
-  nav ul li{
-    display: inline-block;
-  }
+    /* MOBILE RESPONSE */
+    @media screen and (max-width: 812px){         
+          nav ul{
+            max-height: 0px;
+            position: fixed;
+            top: 2em;
+            box-shadow: #333 5px 5px 5px 5px;
 
-  nav ul li a{
-    text-decoration: none;
-    color: inherit;
-  }
-  .menu-bars{
-    width: 100%;
-    background-color: #d3323f;
-    text-align: right;   
-    box-shadow: border-box;   
-    cursor: pointer;  
-    color: #fff;    
-    display: none;
-    padding-top: 35px;
-    z-index: 3;
-  }
-  .menu-bars .fas{
-    margin-right: 0px;
+          }
+          nav ul li{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+          }
+          nav ul li:hover{
+            background-color: rgb(167, 108, 0);
+          }
+          .menu-bars{
+            display: block;
+            position: fixed;
+            top: 0;
+            padding-right: 25px;
+          }
+          .showing{
+            max-height: 20em;
+            position: fixed;
+            top: 50px;
+          }
 
-  }
+        }
+        
+/* END NAV BAR*/
+
+
 
 
 .banner{
-  padding-top: 80px;
-  position: center;
-  display: block;
+    padding: 80px;
+    position: center;
+    display: block;
 }
 
 .header{
-  min-height: calc(100vh - 150px);
-  background: url(../images/Cocina.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    min-height: calc(100vh - 150px);
+    background: url(../images/Cocina.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .head-text{
- text-align: center;
- font-size: 6rem;
- text-shadow: 4px 4px 2px #FDCA35;
-
+   text-align: center;
+   font-size: 6rem;
+   text-shadow: 4px 4px 2px #FDCA35;
+   
 }
 
-.banner h1{
 
-  border-top: 10px dotted #FF9F1C;
-  border-bottom: 10px dotted #FF9F1C;
+h1{
+text-shadow: 2.5px 2.5px #333;
+}
+.banner h1{
+    
+    border-top: 10px dotted #FF9F1C;
+    border-bottom: 10px dotted #FF9F1C;
 }
 
 .content-wrap{
-  background-color: #FF9F1C;
-  color: #d3323f;
-  width: 100vw;
-  text-shadow: 2px 2px #333;
-
+    background-color: #FF9F1C
+;
+    color: #d3323f;
+    height: auto;
+    width: 100%;
 
 }
 ul, #phone{
-  list-style: none;
-  font-size: 3em;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: #333 5px 5px 5px 5px;
-  text-shadow: #333 5px 5px 5px 5px;
-  display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #333 5px 5px 5px 5px;
+    text-shadow: #333 5px 5px 5px 5px;
 
 }
 .carousel {
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
 img{
-  display: block;
-  width: 100%;
-  height: auto;
-  box-shadow: #333 3px 3px 3px 3px;
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: #333 3px 3px 3px 3px;
+
 }
-
-#section{
-  background-color: #FF9F1C;
+.container-fluid{
+    width: 50%;
+    height: auto;
 }
+.grid{
+    display: grid;
+grid-column: span 2;
 
-
-/* MOBILE RESPONSE */
-  @media screen and (max-width: 812px){   
-    
-        nav ul{
-          max-height: 0px;
-          position: fixed;
-          top: 1em;
-          box-shadow: #333 5px 5px 5px 5px;
-          display: block;
-        }
-        nav ul li{
-          box-sizing: border-box;
-          width: 100%;
-          padding: 0px;
-          text-align: center;
-        }
-        nav ul li:hover{
-          background-color: rgb(167, 108, 0);
-        }
-        .menu-bars{
-          display: block;
-          position: fixed;
-          top: 0;
-        }
-        .showing{
-          max-height: 20em;
-          position: fixed;
-          top: 50px;
-        }
-        body{
-          width: 100%;
-        }
-        ul, #phone{
-          font-size: 2em;
-        }
-        .head-text, .banner, .maps{
-          margin: 0 auto;
-          width: 100%;
-          display: grid;
-        }
-      }
+}

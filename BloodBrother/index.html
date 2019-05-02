@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<title id="title">BloodBrother</title>
+
+<body>
+    <div class="input-wrap">
+        <div>
+            <h1 id="bloodbrother">BloodBrother</h1>
+            <p id="recipe-text"><i>Glucose-based food/drink recommendations. <br> *This is a proof of concept app,
+                    contact a Doctor or nutritionist for recommendations on diet.* </i>
+            </p>
+        </div>
+        <div id="currentbg-text">Current Blood Glucose: <input type="number" id="currentbg" value=""> mg/dL</div>
+        <br>
+        <input type="button" id="fetch" value="Check">
+    </div>
+
+    <div class="output-container">
+        <h3 id="glucoselegend">Glucose Legend:</h3>
+        <ul id="ruleslist">
+            <li>Less than 50 prompts warning alert.</li>
+            <li>Higher than 50, less than 100 returns carbs > 50 grams.</li>
+            <li>Higher than 100, less than 150 returns carbs < 35 grams.</li> <li>Higher than 150, less than 200 returns
+                    carbs < 5 grams.</li> <li>Higher than 200 prompts warning alert.</li>
+        </ul>
+        <h3 id="pleasewait"></h3>
+        <h2>Foods/drink recommendations based on your blood glucose:</h2>
+
+
+        <div class="holder">
+            <div hidden id="spinner"></div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>

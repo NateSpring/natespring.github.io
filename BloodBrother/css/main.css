@@ -1,0 +1,155 @@
+body {
+    background-color: #254E70;
+}
+
+.input-wrap {
+    /* Content Positioning */
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    box-shadow: 5px 5px 5px 5px;
+    /* Style */
+    background-color: #B3001B;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+}
+
+/* Main input container */
+
+#bloodbrother {
+    font-size: 3em;
+    font-family: cursive;
+    padding: 0;
+    margin: 0 auto;
+    border-bottom: 5px solid white;
+}
+
+#recipe-text {
+    font-size: 20px;
+}
+#currentbg{
+    height: 1.5em;
+    font-size: 20px;
+}
+#currentbg-text {
+    font-size: 2em;
+}
+
+/* Submit Button */
+
+.output-container {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1rem;
+}
+
+.holder {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-size: 1.5rem;
+    border-bottom: 2px solid gray;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.measure {
+    font-size: 14px;
+}
+
+.carbs {
+    font-size: 14px;
+    color: #0000ff;
+}
+
+.footer {
+    text-align: center;
+}
+
+#fetch {
+    width: 40%;
+    height: 90%;
+    background-color: blue;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 7px 7px 7px 7px;
+    border: solid 2.5px white;
+}
+
+#pleasewait {
+    /*Hidden  then show */
+}
+#glucoselegend{
+    font-size: 2em;
+}
+#ruleslist {
+    list-style: none;
+    border-bottom: 2px black;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    border: 2px solid black;
+    padding: 5px;
+    color: white;
+}
+li:nth-child(1) {
+    background: blue;
+}
+li:nth-child(2) {
+    background: green;
+}
+li:nth-child(3) {
+    color: grey;
+    background: yellow;
+}
+li:nth-child(4) {
+    background: orangered;
+}
+li:nth-child(5) {
+    background: red;
+}
+/*Loading Spinner*/
+#spinner:not([hidden]) {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #spinner::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 6px double red;
+    border-top: 6px solid red;
+    border-radius: 100%;
+    will-change: transform;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
