@@ -149,7 +149,8 @@ button, .button {
 	text-align: center;
 	border-radius: 0.5em;
 	text-decoration: none;
-	padding: 0.65em 3em 0.65em 3em;
+	padding: 1em 3em 1em 3em;
+	margin: 5px;
 	border: 0;
 	cursor: pointer;
 	outline: 0;
