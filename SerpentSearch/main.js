@@ -34,7 +34,7 @@ function initAutocomplete() {
         return;
       }
       var icon = {
-        url: '/media/RS-Icon.png',
+        url: '/SerpentSearch/media/RS-Icon.png',
         scaledSize: new google.maps.Size(75, 75), // scaled size
         origin: new google.maps.Point(0, 0), // origin
         anchor: new google.maps.Point(50, 50) // anchor
@@ -62,7 +62,7 @@ function initAutocomplete() {
   //Populate map with previous sightings & Manual add marker
   //Setting Icon image
   var icon = {
-    url: '/media/RS-Icon.png',
+    url: '/SerpentSearch/media/RS-Icon.png',
     scaledSize: new google.maps.Size(75, 75), // scaled size
     origin: new google.maps.Point(0, 0), // origin
     anchor: new google.maps.Point(45, 75) // anchor
