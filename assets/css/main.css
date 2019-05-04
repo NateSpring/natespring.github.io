@@ -452,11 +452,12 @@ body.homepage.is-preload #header:after {
 
 #banner {
 	text-align: center;
-	padding: 2em 0 2em 0;
 	margin-bottom: 0;
-	font-size: 1.5em;
+	font-size: 1em;
 }
-
+#banner h1{
+	font-size: 2.5em;
+}
 #banner header>p {
 	margin-bottom: 0;
 }
