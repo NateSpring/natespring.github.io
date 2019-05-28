@@ -1,193 +1,211 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Nathan Spring Codes</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <title>Nate's Portfolio</title>
 </head>
 
-<body class="homepage is-preload">
-	<div id="page-wrapper">
+<body>
 
-		<!-- Header -->
-		<div id="header">
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a class="tablink" onclick="openTab(event, 'about')" id="defaultOpen">About</a></li>
+                    <li><a class="tablink" onclick="openTab(event, 'projects')">Projects</a></li>
+                    <li><a class="tablink" onclick="openTab(event, 'dailyblog')">Daily Blog</a></li>
+                    <li><a class="tablink" onclick="openTab(event, 'contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="about" class="tabcontent">
+            <div class="content">
+                <section class="me">
+                    <img src="/images/roundProfileMe.png">
+                    <div class="me-content">
+                        <h1>Nathan Spring</h1>
+                        <h3>Web Developer</h3>
+                        <p>Hello! I am a self-taught web developer with a deep passion to create and help others. I love
+                            to build things and web development fills that void. I'm a dedicated person that loves to
+                            learn. In my spare time I like to spend time with my family, challenge people in JavaScript
+                            battles, and work on my home-built racecar. I also write a daily blog chronicling my journey
+                            as a web and software engineer. I'm also a great team player with a positive
+                            attitude. I look forward to working with you!</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div id="projects" class="tabcontent">
+        
+            <article>
+                <h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
 
-			<!-- Inner -->
-			<div class="inner">
-				<header>
-				</header>
-				<footer>
-					<a href="#banner" class="button circled scrolly">Start</a>
-				</footer>
-			</div>
+                <img src="images/rattlescanDONE.jpg" alt="" />
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#resume">Resume</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#aboutme">About Me</a></li>
-					<li><a href="#contact">Contact</a></li>
+                <p>Users can avoid potentially dangerous areas by checking this web app to see
+                    recent rattlesnake
+                    sightings and also mark their own. This was built by querying the Google Maps
+                    API.</p>
+                <h2> Tools Used:
+                    <i class="pi-js fab fa-js-square fa-2x"></i>
+                    <i class="pi-html fab fa-html5 fa-2x"></i>
+                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
+                </h2>
+                <button class="checkcode" onclick="location.href = 'SerpentSearch/index.html'">Open
+                    Project</button>
+                <button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Check
+                    Code</button>
+            </article>
+            <article>
+                    <h3><a href="JacMan/index.html">JacMan</a></h3>
+    
+                    <img src="/images/JacMAN.gif" alt="" />
+    
+                    <p>I created this platformer for my 4 year old son, Jack.
+                        This was built primarily using JavaScript and the Phaser framework. I also utilized Photoshop to create the character animation template. </p>
+                    <h2> Tools Used:
+                        <i class="pi-js fab fa-js-square fa-2x"></i>
+                    </h2>
+                    <button class="checkcode" onclick="location.href = 'JacMan/index.html'">Open
+                        Project</button>
+                    <button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/JacMan'">Check
+                        Code</button>
+                </article>
 
-				</ul>
-			</nav>
+            <article>
+                <h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
 
-		</div>
+                <img src="images/bloodbrotherscreencap.gif" alt="" />
 
-		<!-- Banner -->
-		<section id="banner">
-			<header>
-				<h1>Welcome to my <strong>Portfolio</strong></h1>
-				<h3>Please check out some of my projects here! Definitely head on over to <a id="zerohourlink"
-						href="https://zerohour.home.blog/" class="icon fa-comment"> my blog</a> and <a id="zerohourlink" href="https://github.com/NateSpring"
-						class="icon fa-github"> GitHub</a> to see the process of what I've been working on. <br>Thank You!</h3>
-			</header>
-		</section>
+                <p>BloodBrother is a web application that recommends a list of foods based on a
+                    users blood glucose
+                    number. An API query is made to USDA API and filters JSON data to return the
+                    correct foods. </p>
+                <h2> Tools Used:
+                    <i class="pi-js fab fa-js-square fa-2x"></i>
+                    <i class="pi-html fab fa-html5 fa-2x"></i>
+                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
+                </h2>
+                <button class="checkcode" onclick="location.href = 'BloodBrother/index.html'">Open
+                    Project
+                </button>
+                <button class="checkcode"
+                    onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">Check
+                    Code</button>
+            </article>
 
-		<section id="projects"></section>
-		<section class="carousel">
-			<div class="reel">
+            <article>
+                <h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
 
-				<article>
-					<a href="SerpentSearch/index.html" class="image featured"><img src="images/rattlescanDONE.jpg"
-							alt="" /></a>
-					<header>
-						<h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
-					</header>
-					<p>This web app is for finding and reporting rattlesnake sightings. Other users can use this
-						information to avoid potentially dangerous areas.<br>Skills: JavaScript, HTML, CSS, Google Maps
-						API.</p>
-					<button class="checkcode" onclick="location.href = 'SerpentSearch/index.html'">Open
-						Project</button>
-					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Check
-						Code</button>
-				</article>
+                <img src="images/avbg2.gif" alt="" />
 
-				<article>
-					<a href="BloodBrother/index.html" class="image featured"><img src="images/bloodbrotherscreencap.gif"
-							alt="" /></a>
-					<header>
-						<h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
-					</header>
-					<p>Takes a users blood glucose input and returns a list of foods with an acceptable carbohydrate
-						count. <br> Skills: JavaScript, HTML, CSS, Handling API data (JSON).</p>
-					<button class="checkcode" onclick="location.href = 'BloodBrother/index.html'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">Check
-						Code</button>
-				</article>
+                <p>This web application calculates the average of multiple blood glucose
+                    measurements. </p>
+                <h2> Tools Used:
+                    <i class="pi-js fab fa-js-square fa-2x"></i>
+                    <i class="pi-html fab fa-html5 fa-2x"></i>
+                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
+                </h2>
+                <button class="checkcode" onclick="location.href = 'AverageGlucose/index.html'">Open
+                    Project</button>
+                <button class="checkcode"
+                    onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Check
+                    Code</button>
+            </article>
 
-				<article>
-					<a href="AverageGlucose/index.html" class="image featured"><img src="images/avbg2.gif" alt="" /></a>
-					<header>
-						<h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
-					</header>
-					<p>This is a simple web app that displays the average of multiple blood glucose readings.
-						<br>Skills: JavaScript, HTML, CSS.</p>
-					<button class="checkcode" onclick="location.href = 'AverageGlucose/index.html'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Check
-						Code</button>
-				</article>
+            <article>
+                <h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
 
-				<article>
-					<a href="Cocina/index.html" class="image featured"><img src="images/cocinademo.JPG" alt="" /></a>
-					<header>
-						<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
-					</header>
-					<p>A static webpage I made for a local Mexican Restaurant utilizing Bootstrap 4 & jQuery.</p>
-					<button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
-						Code</button>
-				</article>
+                <a href="Cocina/index.html" class="image featured"><img src="images/cocinademo.JPG" alt="" /></a>
 
-				<article>
-					<a href="JSDrumKit/webDrummer.html" class="image featured"><img src="images/drummer.JPG"
-							alt="Web Drummer" /></a>
-					<header>
-						<h3><a href="JSDrumKit/webDrummer.html">SoundBoard Project</a></h3>
-					</header>
-					<p>A sound board I made utilizing JavaScript and CSS/HTML.</p>
-					<button class="checkcode" onclick="location.href = 'JSDrumKit/webDrummer.html'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/webdrummer.github.io/blob/master/webDrummer.html'">Check
-						Code</button>
-				</article>
+                <p>This is a static web page I made as volunteer work for a local Mexican
+                    Restaurant. I noticed they
+                    didn't have any online presence and happily solved this problem for them. </p>
+                <h2> Tools Used:
+                    <i class="pi-html fab fa-html5 fa-2x"></i>
+                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
+                </h2>
+                <button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
+                    Project</button>
+                <button class="checkcode"
+                    onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
+                    Code</button>
+            </article>
 
+            <article>
+                <h3><a href="JSDrumKit/webDrummer.html">SoundBoard Project</a></h3>
 
-		</section>
+                <a href="JSDrumKit/webDrummer.html" class="image featured"><img src="images/drummer.JPG"
+                        alt="Web Drummer" /></a>
 
-
-		<section id="aboutme"></section>
-
-		<div class="reswrapper">
-			<div class="aboutme">
-				<img id="profilepic" src="images/roundProfileMe.png">
-				<h3>Nathan Spring</h3>
-				<br>
-				<br>
-				<p> I'm a self-taught developer with a passion to build! My friends and family know me for having the
-					ability to fix or modify complex things without any prior knowledge. Coding is perfect for me
-					because I can use my problem solving abilities to build useful things. I can only hope that one day
-					my web aps or projects I work on will help people in some way. .</p>
-			</div>
-			<section id="resume"></section>
-			<div class="skills">
-				<h1 id="resumetext">Resume</h1>
-				<img src="/images/Skills.jpg">
-			</div>
-		</div>
-
-
-		<!-- Contact -->
-		<footer id="footer">
-			<section class="contact" id="contact">
-				<header>
-					<h3>Please Contact me!</h3>
-				</header>
-				<ul class="icons">
-					<li><a href="https://github.com/NateSpring" class="icon fa-github"><span
-								class="label">GitHub</span></a>
-					</li>
-					<li><a href="https://www.linkedin.com/in/natespring/" class="icon fa-linkedin"><span
-								class="label">Linkedin</span></a></li>
-					<li><a href="mailto: natespring92@gmail.com">Email</a></li>
-				</ul>
-			</section>
-
-			<!-- Copyright -->
-			<div class="copyright">
-				<ul class="menu">
-					<li>&copy; Nate Spring 2019. All rights reserved.</li>
-					</li>
-				</ul>
-			</div>
-	</div>
-	</footer>
+                <p>This project was a lot of fun to make. I learned how to use keycodes and to map
+                    them to functions.
+                </p>
+                <h2> Tools Used:
+                    <i class="pi-js fab fa-js-square fa-2x"></i>
+                    <i class="pi-html fab fa-html5 fa-2x"></i>
+                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
+                </h2>
+                <button class="checkcode" onclick="location.href = 'JSDrumKit/webDrummer.html'">Open
+                    Project</button>
+                <button class="checkcode"
+                    onclick="location.href = 'https://github.com/NateSpring/webdrummer.github.io/blob/master/webDrummer.html'">Check
+                    Code</button>
+            </article>
+            <article>
+                <h1><a>More on the way!</a></h1>
+            </article>
+        </div>
 
 
-	</div>
+        <div id="dailyblog" class="tabcontent">
+            <h1>My Daily Coding Journal</h1>
+            <iframe src="https://zerohour.home.blog/"></iframe>
+            <p>I code every day and document my progress here. From learning new libraries, building
+                projects to simple
+                tricks I've found along the way, my journey as a self-taught web developer is here.<br><a
+                    id="zerohourlink" href="https://zerohour.home.blog/">Here's a
+                    link</a>.
+            </p>
+        </div>
+        <div id="contact" class="tabcontent">
+                                <ul class="icons">
+                                    <li><a href="https://github.com/NateSpring" class="conlinks fab fa-github">
+                        GitHub</a>
+                </li>
+                <p>This is the best place to find my source code for my projects.</p>
+                                    <li><a href="https://www.linkedin.com/in/natespring/"
+                        class="conlinks fab fa-linkedin">
+                        Linkedin</a>
+                </li>
+                <p>Find out more about my professional background and link up!</p>
+                                    <li><a href="mailto: natespring92@gmail.com" class="conlinks fa fa-envelope"> Email
+                    </a>
+                </li>
+                <p>Or send me an email and I'll get back to you ASAP.</p>
+                                
+            </ul>
+        </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
 
+
+
+
+
+
+
+
+
+
+        <script src="/JavaScript/java.js"></script>
 </body>
 
 </html>
