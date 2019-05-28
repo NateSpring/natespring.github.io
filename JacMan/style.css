@@ -1,0 +1,26 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.title {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(76, 76, 76) 0%, rgb(89, 89, 89) 12%, rgb(102, 102, 102) 25%, rgb(71, 71, 71) 39%, rgb(44, 44, 44) 50%, rgb(0, 0, 0) 51%, rgb(17, 17, 17) 60%, rgb(43, 43, 43) 76%, rgb(28, 28, 28) 91%, rgb(19, 19, 19) 100%);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.title img {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+canvas {
+    display: grid;
+    margin: 0 auto;
+    height: 450px;
+    width: auto;
+}
