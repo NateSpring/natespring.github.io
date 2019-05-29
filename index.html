@@ -1,211 +1,273 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<title>Nathan Spring</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
 
 
-    <title>Nate's Portfolio</title>
+	<!-- Font -->
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+	<!-- Stylesheets -->
+
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+
+	<link href="common-css/ionicons.css" rel="stylesheet">
+
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a class="tablink" onclick="openTab(event, 'about')" id="defaultOpen">About</a></li>
-                    <li><a class="tablink" onclick="openTab(event, 'projects')">Projects</a></li>
-                    <li><a class="tablink" onclick="openTab(event, 'dailyblog')">Daily Blog</a></li>
-                    <li><a class="tablink" onclick="openTab(event, 'contact')">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="about" class="tabcontent">
-            <div class="content">
-                <section class="me">
-                    <img src="/images/roundProfileMe.png">
-                    <div class="me-content">
-                        <h1>Nathan Spring</h1>
-                        <h3>Web Developer</h3>
-                        <p>Hello! I am a self-taught web developer with a deep passion to create and help others. I love
-                            to build things and web development fills that void. I'm a dedicated person that loves to
-                            learn. In my spare time I like to spend time with my family, challenge people in JavaScript
-                            battles, and work on my home-built racecar. I also write a daily blog chronicling my journey
-                            as a web and software engineer. I'm also a great team player with a positive
-                            attitude. I look forward to working with you!</p>
-                    </div>
-                </section>
-            </div>
-        </div>
-        <div id="projects" class="tabcontent">
-        
-            <article>
-                <h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>Sonora, Ca</h5>
+								<h5>95370</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
 
-                <img src="images/rattlescanDONE.jpg" alt="" />
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline "></i>
+							<div class="right-area">
+								<h3>(209)694-6171</h3>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
 
-                <p>Users can avoid potentially dangerous areas by checking this web app to see
-                    recent rattlesnake
-                    sightings and also mark their own. This was built by querying the Google Maps
-                    API.</p>
-                <h2> Tools Used:
-                    <i class="pi-js fab fa-js-square fa-2x"></i>
-                    <i class="pi-html fab fa-html5 fa-2x"></i>
-                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
-                </h2>
-                <button class="checkcode" onclick="location.href = 'SerpentSearch/index.html'">Open
-                    Project</button>
-                <button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Check
-                    Code</button>
-            </article>
-            <article>
-                    <h3><a href="JacMan/index.html">JacMan</a></h3>
-    
-                    <img src="/images/JacMAN.gif" alt="" />
-    
-                    <p>I created this platformer for my 4 year old son, Jack.
-                        This was built primarily using JavaScript and the Phaser framework. I also utilized Photoshop to create the character animation template. </p>
-                    <h2> Tools Used:
-                        <i class="pi-js fab fa-js-square fa-2x"></i>
-                    </h2>
-                    <button class="checkcode" onclick="location.href = 'JacMan/index.html'">Open
-                        Project</button>
-                    <button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/JacMan'">Check
-                        Code</button>
-                </article>
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5>natespring92@gmail.com</h5>
+								<h6>I will reply within 24 hours</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
 
-            <article>
-                <h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
+			<a class="downlad-btn" href="Resume.docx">Download Resume</a>
+		</div><!-- container -->
+	</header>
 
-                <img src="images/bloodbrotherscreencap.gif" alt="" />
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/roundProfileMe.png" alt=""></div>
+						<h2><b>Nathan Spring</b></h2>
+						<h4 class="font-yellow">Web Developer</h4>
 
-                <p>BloodBrother is a web application that recommends a list of foods based on a
-                    users blood glucose
-                    number. An API query is made to USDA API and filters JSON data to return the
-                    correct foods. </p>
-                <h2> Tools Used:
-                    <i class="pi-js fab fa-js-square fa-2x"></i>
-                    <i class="pi-html fab fa-html5 fa-2x"></i>
-                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
-                </h2>
-                <button class="checkcode" onclick="location.href = 'BloodBrother/index.html'">Open
-                    Project
-                </button>
-                <button class="checkcode"
-                    onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">Check
-                    Code</button>
-            </article>
+						<ul class="social-icons">
+							<li><a href="https://www.linkedin.com/in/natespring/"><i
+										class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://github.com/NateSpring"><i class="ion-social-github"></i></a></li>
+							<li><a href="https://zerohour.home.blog/"><i class="ion-bookmark"></i></a></li>
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
 
-            <article>
-                <h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
 
-                <img src="images/avbg2.gif" alt="" />
+			</div><!-- row -->
 
-                <p>This web application calculates the average of multiple blood glucose
-                    measurements. </p>
-                <h2> Tools Used:
-                    <i class="pi-js fab fa-js-square fa-2x"></i>
-                    <i class="pi-html fab fa-html5 fa-2x"></i>
-                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
-                </h2>
-                <button class="checkcode" onclick="location.href = 'AverageGlucose/index.html'">Open
-                    Project</button>
-                <button class="checkcode"
-                    onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Check
-                    Code</button>
-            </article>
+			<div class="portfolioContainer">
 
-            <article>
-                <h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
-
-                <a href="Cocina/index.html" class="image featured"><img src="images/cocinademo.JPG" alt="" /></a>
-
-                <p>This is a static web page I made as volunteer work for a local Mexican
-                    Restaurant. I noticed they
-                    didn't have any online presence and happily solved this problem for them. </p>
-                <h2> Tools Used:
-                    <i class="pi-html fab fa-html5 fa-2x"></i>
-                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
-                </h2>
-                <button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
-                    Project</button>
-                <button class="checkcode"
-                    onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
-                    Code</button>
-            </article>
-
-            <article>
-                <h3><a href="JSDrumKit/webDrummer.html">SoundBoard Project</a></h3>
-
-                <a href="JSDrumKit/webDrummer.html" class="image featured"><img src="images/drummer.JPG"
-                        alt="Web Drummer" /></a>
-
-                <p>This project was a lot of fun to make. I learned how to use keycodes and to map
-                    them to functions.
-                </p>
-                <h2> Tools Used:
-                    <i class="pi-js fab fa-js-square fa-2x"></i>
-                    <i class="pi-html fab fa-html5 fa-2x"></i>
-                    <i class="pi-css fab fa-css3-alt fa-2x"></i>
-                </h2>
-                <button class="checkcode" onclick="location.href = 'JSDrumKit/webDrummer.html'">Open
-                    Project</button>
-                <button class="checkcode"
-                    onclick="location.href = 'https://github.com/NateSpring/webdrummer.github.io/blob/master/webDrummer.html'">Check
-                    Code</button>
-            </article>
-            <article>
-                <h1><a>More on the way!</a></h1>
-            </article>
-        </div>
+				<div class="p-item web-design">
+					<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
+					<img src="images/cocinademo.JPG" alt=""></a>
+					<p>A static webpage I made for a local Mexican Restaurant utilizing Bootstrap 4 & jQuery.</p>
+					<button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
+						Project</button>
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
+						Code</button>
+				</div><!-- p-item -->
+				<div class="p-item web-design">
+					<h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
+					<img src="images/rattlescanDONE.jpg" alt=""></a>
+					<p>This web app is for finding and reporting rattlesnake sightings. Other users can use this
+						information to avoid potentially dangerous areas.<br>Skills: JavaScript, HTML, CSS, Google Maps
+						API.</p>
+					<button class="checkcode" onclick="location.href = 'SerpentSearch/index.html'">Open
+						Project</button>
+					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Check
+						Code</button>
+				</div><!-- p-item -->
+				<div class="p-item web-design">
+					<h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
+					<img src="images/avbg2.gif" alt=""></a>
+					<p>This is a simple web app that displays the average of multiple blood glucose readings.
+						<br>Skills: JavaScript, HTML, CSS.</p>
+					<button class="checkcode" onclick="location.href = 'AverageGlucose/index.html'">Open
+						Project</button>
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Check
+						Code</button>
+				</div><!-- p-item -->
+				<div class="p-item web-design">
+					<h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
+					<img src="images/bloodbrotherscreencap.gif" alt=""></a>
+					<p>Takes a users blood glucose input and returns a list of foods with an acceptable carbohydrate
+						count. <br> Skills: JavaScript, HTML, CSS, Handling API data (JSON).</p>
+					<button class="checkcode" onclick="location.href = 'BloodBrother/index.html'">Open
+						Project</button>
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">Check
+						Code</button>
+				</div><!-- p-item -->
+				<div class="p-item web-design">
+					<h3><a href="JacMan/index.html">JacMan</a></h3>
+					<img src="images/JacMAN.gif" alt=""></a>
+					<p>I created this platformer for my 4 year old son, Jack.
+						This was built primarily using JavaScript and the Phaser framework. I also utilized Photoshop to
+						create the character animation template. </p>
+					<button class="checkcode" onclick="location.href = 'JacMan/index.html'">Open
+						Project</button>
+					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/JacMan'">Check
+						Code</button>
+				</div><!-- p-item -->
+				
 
 
-        <div id="dailyblog" class="tabcontent">
-            <h1>My Daily Coding Journal</h1>
-            <iframe src="https://zerohour.home.blog/"></iframe>
-            <p>I code every day and document my progress here. From learning new libraries, building
-                projects to simple
-                tricks I've found along the way, my journey as a self-taught web developer is here.<br><a
-                    id="zerohourlink" href="https://zerohour.home.blog/">Here's a
-                    link</a>.
-            </p>
-        </div>
-        <div id="contact" class="tabcontent">
-                                <ul class="icons">
-                                    <li><a href="https://github.com/NateSpring" class="conlinks fab fa-github">
-                        GitHub</a>
-                </li>
-                <p>This is the best place to find my source code for my projects.</p>
-                                    <li><a href="https://www.linkedin.com/in/natespring/"
-                        class="conlinks fab fa-linkedin">
-                        Linkedin</a>
-                </li>
-                <p>Find out more about my professional background and link up!</p>
-                                    <li><a href="mailto: natespring92@gmail.com" class="conlinks fa fa-envelope"> Email
-                    </a>
-                </li>
-                <p>Or send me an email and I'll get back to you ASAP.</p>
-                                
-            </ul>
-        </div>
+			</div><!-- portfolioContainer -->
+
+	</section><!-- portfolio-section -->
+
+
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50"> All my life I've had the need to creating things boiling inside. The last
+						few years I've built multiple home-built race cars; teaching myself metal fabrication, wiring,
+						and ECU tuning. I've taken that same desire to create and put it to the keyboard. Using my
+						imagination and code to create useful and asthetically pleasing apps is extremely satisfying to
+						me. In my spare time, I love learning new web technologies and discovering the potential of
+						them, and myself. </p>
+
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".97">
+									<div></div>
+									<h6 class="progress-title">HTML5 & CSS3</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".78">
+									<div></div>
+									<h6 class="progress-title">WEB DESIGN</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".67">
+									<div></div>
+									<h6 class="progress-title">JavaScript</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1400"
+									data-count="5">0</span></b></h1>
+						<h5 class="desc"><b>Projects Completed</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="700"
+									data-count="157">0</span></b></h1>
+						<h5 class="desc"><b>Day Coding Streak</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="2000"
+									data-count="732">0</span></b></h1>
+						<h5 class="desc"><b>Cups of Coffee</b></h5>
+					</div><!-- margin-b-30 -->
+				</div><!-- col-md-3-->
+
+			</div><!-- row-->
+		</div><!-- container-->
+	</section><!-- counter-section-->
 
 
 
+	<!-- SCIPTS -->
 
+	<script src="common-js/jquery-3.2.1.min.js"></script>
 
+	<script src="common-js/tether.min.js"></script>
 
+	<script src="common-js/bootstrap.js"></script>
 
+	<script src="common-js/isotope.pkgd.min.js"></script>
 
+	<script src="common-js/jquery.waypoints.min.js"></script>
 
+	<script src="common-js/progressbar.min.js"></script>
 
+	<script src="common-js/jquery.fluidbox.min.js"></script>
 
-        <script src="/JavaScript/java.js"></script>
+	<script src="common-js/scripts.js"></script>
+
 </body>
 
 </html>
