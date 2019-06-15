@@ -1,0 +1,517 @@
+<html>
+
+<head>
+    <title>ZOE Coffee House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+
+
+
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="gridcontainer">
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-brown">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" href="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link active"
+                            data-toggle="tab" href="#maintext">Home</a></li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link"
+                            data-toggle="tab" href="#menu">Menu</a></li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link"
+                            data-toggle="tab" href="#about">About Us</a></li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link"
+                            data-toggle="tab" href="#conns">Connections</a></li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link"
+                            data-toggle="tab" href="#events">Events</a></li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-item nav-link"
+                            data-toggle="tab" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="header">
+            <img id="headPic" src="images/header.png" alt="">
+        </header>
+
+
+        <div class="content">
+
+            <div class="sidebar">
+                <br>
+                <h1>Hours</h1>
+                <h3>Thurs - Mon: 7AM to 8PM</h3>
+                <h1>Contact</h1>
+                <h3><a id="tel" href="tel: 209-586-7006">Call Us: 209-586-7006</a></h3>
+                <h1>Location:</h1>
+                <p>24680 Highway 108
+                    P.O. Box 70
+                    Mi Wuk Village, CA 95346</p>
+                <a href="https://www.facebook.com/zoe.coffeehouse#!/ZoeCoffeeHouseMiWuk?fref=ts">
+                    <img src="images/facebook.png" /></a>
+
+                <a href="http://www.leapset.com/order/restaurant/lpZoeCoffeeMwv">
+                    <img src="images/leapset.png" /></a>
+
+                <img id="wifiPic" src="images/wifi.png" width="50%" />
+                <br>
+
+            </div>
+
+
+            <div class="tab-content">
+
+                <div id="maintext" class="tab-pane fade show active" role="tabpanel">
+                    <h1>Welcome to Zoe Coffee House</h1>(Zoe: the Greek Word for Life)<br><img id="thelodge"
+                        alt="The Lodge" src="images/TheLodge2.jpg" /><br>
+                    <p>We provide
+                        premium Coffees and Teas,
+                        delicious Crepes – sweet or savory, Desserts, Soft-serve Ice Cream and more for
+                        discriminating foodies of all ages!
+                        Be sure to watch for our specials each month –
+                        you won't want to miss them! Make sure to take advantage of our convenient online
+                        ordering provided to us
+                        by <a id="leapsetlink"
+                            href="http://www.leapset.com/order/restaurant/lpZoeCoffeeMwv">Leapset.com</a>.
+                        Your order will be ready and paid for when you arrive!
+                        <br><br>We invite our friends, family and community to join us in the afternoons and
+                        evenings to
+                        connect with one another, the internet and the world! Each month we will be featuring a
+                        charity organization from either home or abroad – please check our Connections page to
+                        see
+                        their stories. We want to reach out to our world and make a difference, whether big or
+                        small, in someone's life! Whether you're watching the snow fall in the winter or
+                        enjoying
+                        the cool mountain air in the summer, come relax and enjoy LIFE with us at ZOE!
+                    </p>
+                </div>
+
+                <div id="menu" class="tab-pane fade" role="tabpanel">
+
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a class="nav-item nav-link active" data-toggle="tab"
+                                href="#panini">Panini</a>
+                        </li>
+                        <li><a class="nav-item nav-link" data-toggle="tab" href="#crepe">Crepe's</a></li>
+                        <li><a class="nav-item nav-link" data-toggle="tab" href="#soup">Soup/ Salad</a></li>
+                        <li><a class="nav-item nav-link" data-toggle="tab" href="#kidsmenu">Kids Menu</a></li>
+                        <li><a class="nav-item nav-link" data-toggle="tab" href="#drinks">Drinks</a></li>
+                        <li><a class="nav-item nav-link" data-toggle="tab" href="#softserve">Soft Serve</a></li>
+                    </ul>
+
+                    <div class="tab-content" id="tabcon">
+                        <div id="panini" class="tab-pane fade show active" role="tabpanel">
+                            <h1>Basic</h1>
+                            <p>Scrambled egg & cheddar cheese w/sautéed mushroom sauce</p>
+                            <h3>$4.50</h3>
+                            <br>
+                            <h1>Deluxe</h1>
+                            <p>Scrambled egg, cheese & choice of ham or bacon with sautéed mushroom sauce</p>
+                            <h3>$5.50</h3>
+                            <br>
+                            <h1>Caprese</h1>
+                            <p>Scrambled egg, mozzarella, tomatoes & zesty pesto</p>
+                            <h3>$5.50</h3>
+                            <br>
+                            <h1>Mediterranean</h1>
+                            <p>Scrambled egg, spinach, caramelized onions, sundried tomatoes, feta w/coulis sauce
+                            </p>
+                            <h3>$5.50</h3>
+                        </div>
+
+                        <div id="crepe" class="tab-pane fade">
+                            <h1>Deluxe Crepe</h1>
+                            <p>Scrambled eggs, cheddar cheese and choice of ham or bacon topped w/sautéed mushroom sauce
+                            </p>
+                            <h3>$6.50</h3>
+                            <br>
+                            <h1>Caprese Crepe</h1>
+                            <p>Scrambled egg, mozzarella, tomatoes, & zesty pesto</p>
+                            <h3>$6.00</h3>
+                            <br>
+                            <h1>Three-Cheese</h1>
+                            <p>Trio of gooey melted mozzarella, cheddar and pepper jack</p>
+                            <h3>$5.50</h3>
+                            <br>
+                            <h1>Margherita</h1>
+                            <p>Creamy mozzarella, diced tomatoes and zesty pesto</p>
+                            <h3>$5.50</h3>
+                            <br>
+                            <h1>Ham and Cheese</h1>
+                            <p>Layered with ham, choice of cheddar, mozzarella or pepperjack, chopped tomatoes, and
+                                Dijonnaise</p>
+                            <h3>$6.50</h3>
+                            <br>
+                            <h1>Hawaiian Pizza</h1>
+                            <p>Smoked ham with melted mozzarella and fresh pineapple with rich pizza sauce</p>
+                            <h3>$6.50</h3>
+                            <br>
+                            <br>
+                            <h1>Sweet Crepes</h1>
+                            <h1>Plain</h1>
+                            <p>Drizzled with sweet butter, and your choice of honey, maple or chocolate syrup</p>
+                            <h3>$3.00</h3>
+                            <br>
+
+                            <h1>Zesty Lemon</h1>
+                            <p>Fresh-squeezed lemon juice and powdered sugar</p>
+                            <h3>$3.50</h3>
+                            <br>
+
+                            <h1>Nutella</h1>
+                            <p>Stuffed with choclaty Nutella and topped with whipped cream</p>
+                            <h3>$4.00</h3>
+                            <br>
+
+                            <h1>Berries & Cream</h1>
+                            <p>Fresh seasonal berries on top of a layer of sweet cream cheese OR sugar free option -
+                                Ricotta cheese drizzled with Agave syrup and topped with whipped cream</p>
+                            <h3>$5.00</h3>
+                            <br>
+                            <h1>Banana Walnut</h1>
+                            <p>Sliced bananas and Nutella, drizzled with chocolate syrup and topped with whipped cream
+                                and candied walnuts</p>
+                            <h3>$5.00</h3>
+                            <br>
+                            <h1>Lemon Berry Obsession</h1>
+                            <p>Tangy lemon curd and your choice of fresh sea-sonal berries topped with whipped cream</p>
+                            <h3>$5.00</h3>
+                            <br>
+                            <h1>Abuelita</h1>
+                            <p>Sweetened cream cheese with Mexican chocolate infused with cinnamon</p>
+                            <h3>$5.00</h3>
+                            <br>
+                            <h1>Tiramisu</h1>
+                            <p>Sweetened cream cheese, vanilla espresso, and crumbled ladyfingers with cocoa-dusted
+                                whipped cream</p>
+                            <h3>$5.00</h3>
+                            <br>
+                            <h1>Flying Turtle</h1>
+                            <p>Sweet cream cheese drizzled with chocolate and caramel sauce and sprinkled with candied
+                                pe-cans, topped with whipped cream</p>
+                            <h3>$5.00</h3>
+                            <br>
+
+                        </div>
+                        <div id="soup" class="tab-pane fade">
+                            <h1>Soups</h1>
+                            <p>Served Seasonally</p>
+                            <h3>Small - $3.00</h3>
+                            <h3> Large w/ Bread - $5.00</h3>
+                            <br>
+                            <br>
+                            <h1>Salads</h1>
+                            <h3>Small Garden Salad - $2.50</h3>
+                            <h3>Grilled Chicken Salad - $6.50</h3>
+                        </div>
+
+                        <div id="kidsmenu" class="tab-pane fade">
+                            <h1>Kids Menu</h1>
+                            <h3>PB & J Crepe - $2.50</h3>
+                            <h3>Cheese Crepe - $2.50</h3>
+                            <h3>Hawaiian Pizza - $3.50</h3>
+                            <h3>Smores Crepe - $2.50</h3>
+                            <h3>Milk - $1.00</h3>
+                            <h3>Hot Chocolate - $1.00</h3>
+                        </div>
+                        <div id="drinks" class="tab-pane fade">
+                            <h1>Espresso</h1>
+                            <p>Sm. $1.50</p>
+                            <p>Med. $2.00</p>
+                            <p>Lrg. $2.25</p>
+                            <br>
+                            <h1>Coffee & Tea</h1>
+                            <p>Sm. $1.50</p>
+                            <p>Med. $1.75</p>
+                            <p>Lrg. $2.00</p>
+                            <br>
+                            <h1>Americano</h1>
+                            <p>Sm. $2.25</p>
+                            <p>Med. $2.75</p>
+                            <p>Lrg. $3.25</p>
+                            <br>
+                            <h1>Cappuccino</h1>
+                            <p>Sm. $3.00</p>
+                            <p>Med. $3.50</p>
+                            <p>Lrg. $4.00</p>
+                            <br>
+                            <h1>Latte</h1>
+                            <p>Sm. $3.25</p>
+                            <p>Med. $3.75</p>
+                            <p>Lrg. $4.25</p>
+                            <br>
+                            <h1>Mocha/ Chai</h1>
+                            <p>Sm. $3.75</p>
+                            <p>Med. $4.25</p>
+                            <p>Lrg. $4.75</p>
+                            <br>
+                            <h1>Hot Chocolate</h1>
+                            <p>Sm. $2.75</p>
+                            <p>Med. $3.25</p>
+                            <p>Lrg. $3.75</p>
+                            <br>
+                            <h1>Italian Soda</h1>
+                            <p>Med. $2.50</p>
+                            <p>Lrg. $3.00</p>
+                            <br>
+                            <h1>Italian Cream Sodas</h1>
+                            <p>Med. $2.75</p>
+                            <p>Lrg. $3.25</p>
+                            <br>
+                            <h1>Syrup Flavors</h1>
+                            <ul>
+                                <li>Almond</li>
+                                <li>Blackberry</li>
+                                <li>Caramel</li>
+                                <li>Chocolate</li>
+                                <li>Coconut</li>
+                                <li>Mint</li>
+                                <li>Hazelnut</li>
+                                <li>Mango</li>
+                                <li>Peach</li>
+                                <li>Raspberry</li>
+                                <li>Salted Caramel</li>
+                                <li>Strawberry</li>
+                                <li>Sugarfree vanilla</li>
+                                <li>Toffee Nut</li>
+                                <li>Vanilla</li>
+                                <li>White Chocolate</li>
+                            </ul>
+                            <br>
+                            <h1>All Natrual Fruit Smoothies</h1>
+                            <p>Med. $3.50 Lrg. $4.25</p>
+                            <ul>
+                                <li>Mango</li>
+                                <li>Peach-Pear-Apricot</li>
+                                <li>Pineapple</li>
+                                <li>Paradise</li>
+                                <li>Four Berry</li>
+                                <li>Strawberry</li>
+                            </ul>
+                        </div>
+                        <div id="softserve" class="tab-pane fade">
+                            <h1>Soft Serve</h1>
+                            <p>Vanilla - Cup or Cone - $2.00</p>
+                            <p>Sunday - $2.75</p>
+                            <br>
+
+                            <h1>Shakes</h1>
+                            <br>
+                            <h2>Espresso Shake</h2>
+                            <p>Med. - $3.50</p>
+                            <p>Lrg. - $4.25</p>
+                            <br>
+                            <h2>Mocha Shake</h2>
+                            <p>Med. - $4.00</p>
+                            <p>Lrg. - $4.75</p>
+                            <br>
+
+
+                        </div>
+                    </div>
+                    <!--Tab-Content End-->
+                </div>
+
+
+                <div id="about" class="tab-pane fade" role="tabpanel">
+                    <h3>About Us</h3>
+                    <p>Zoe Coffee House is located in Mi Wuk Village at The Lodge – a private Christian Retreat
+                        Center and the home of <a href="http://crosswalkdp.com/">CrossWalk Discipleship Program.</a>
+                        From
+                        the conception of Zoe Coffee
+                        House, we have desired to provide a comfortable, warm environment to connect with others
+                        here at home or abroad. We hope you'll come and enjoy a refreshing drink, maybe even
+                        listen to some local music, but always find someone to connect with!
+                    </p>
+                    <div id="pastors">
+                        <img alt="Pastors Pat &amp; Celene McDonald" src="images/2012-Pastors.jpg" width="225" />
+                        <h4>Pat & Celene McDonald</h4>
+                    </div>
+                    Zoe strives to serve delicious fresh food and beverages. Come check our specials –
+                    there's always some new seasonal delights being offered! Come on in and enjoy LIFE!
+
+
+
+                    Zoe Coffee House is owned by Word of Life Fellowship, whose campus is
+                    adjacent to The Lodge. We believe that Jesus came to give us abundant LIFE!
+                    It is our desire to reach our community with His love, His sincerity, and His
+                    passion! Come share LIFE with us at Zoe's!
+
+                    Pastors Pat & Celene McDonald </p>
+
+
+                </div>
+
+                <div id="conns" class="tab-pane fade" role="tabpanel">
+                    <img width="250" alt="" src="images/hands.jpg" />
+
+                    <h3>World Connections</h3>
+                    <p> Word of Life is privileged to be friends with many people across the
+                        world who are living their lives as God has intended for them.
+                        Many live in other countries that are not as blessed as we are,
+                        where daily life, is a struggle, and others live here in Tuolumne County.
+                        We will strive to offer specials at ZOE to bring a little extra support
+                        to these amazing people and their ministries.
+                        Be sure to watch for these opportunities!
+                        We'd love to share some of their stories with you:
+                        <br>
+
+                        <strong>HAITI</strong> – an island that lies less than 700 miles from America's
+                        Gulf Coast and where the people continue to suffer daily. Whether
+                        it is from the effects of hurricanes, earthquakes or extreme poverty,
+                        this nation is in need of great help. We are privileged to partner
+                        with two ministries that work in this impoverished island and care
+                        for these beautiful, resilient people.
+                        <br>
+
+                        <a href="http://www.rhemainternational.org">RHEMA International</a> – Bocozelle,
+                        Haiti – provides medical care for the residents
+                        of the Artibonite Valley, and also has a Maternity Hospital to help moms have healthy
+                        babies. Since the hospital has opened, they have not lost one baby or mother in
+                        child-bearing.
+                        <br>
+
+                        <a href="http://www.fomhaiti.org">Fishers of Men</a> – Port-au-Prince, Haiti – has a strong
+                        presence of God-loving
+                        people in the heart of Haiti's capital city at Rock Church. Not only do they
+                        house over 7000 members in their church, they provide meals for men, women and
+                        over 3000 children in their 17 church/schools in the out-lying communities.
+                        They also educate Haitian children at their private school – Morning Star Christian Academy.
+                        <br>
+
+                        <strong>INDIA</strong> – another impoverished nation that lies across the seas, far from our
+                        eyes.
+                        We partner with Iris India as they help women and children that would normally
+                        be cast aside in their society. They train untouchable tribe kids, widows,
+                        and orphans, along with establishing Rescue Homes for Trafficked kids .......all
+                        over India. They are changing their world one hug at a time!
+                        For more information, please visit -
+                        <a href="http://www.irisindia1040.com">www.irisindia1040.com</a>
+
+                        <br>
+
+                        <strong>AFRICA</strong> – In Pemba, Mozambique, Dawn Wilk, a Tuolumne County RN, born and raised
+                        at
+                        Word of Life Fellowship, serves with IRIS Ministries She is in charge of the
+                        Meize Milk Clinic that provides milk for babies whose mothers cannot feed them
+                        due to AIDS or malnutrition. Dawn also travels to the Bush-bush and several
+                        clinics to help provide medical care for some of the world's poorest people.
+                        For more information, please visit – <a
+                            href="http://www.destinedforjoy.com">www.destinedforjoy.com</a>.
+                        <br>
+
+                        <strong>UNITED STATES:</strong>
+                        ILE - International Leadership Embassy under Hope Taylor's direction, believes America
+                        can have a better future and tirelessly pursues this through national prayer focused
+                        conference calls, speaking engagements to groups and writing educational materials.
+                        ILE's mandate is to educate, engage and empower the Church with a Biblical
+                        worldview while implementing strategies to transform America and the nations,
+                        particularly within the civil government.
+
+
+                        <br>
+                        <strong> TUOLUMNE COUNTY</strong> – We have many friends and neighbors that reach out to our
+                        local
+                        community to provide food, clothing, love and friendship to those who are in need
+                        of a helping hand.. Some of these great people include Interfaith, AATCA, Lighthouse
+                        Ministries, and Foothill Pregnancy Center.
+
+                        <br>
+                        We have many other friends, near and abroad, who are doing just what Jesus commanded
+                        us to do: 'Love your neighbor as yourself.' We will bring a taste of their world to
+                        you throughout the weeks and months that lie ahead – be sure to come and share LIFE
+                        with them as you share LIFE with us!
+
+                    </p>
+                </div>
+
+                <div id="events" class="tab-pane fade" role="tabpanel">
+                    <h3>Happenings</h3>
+
+                    <p>Zoe Coffee House will be a place where we share LIFE, and where the
+                        various forms of God-given creativity – music, poetry, art, photography,
+                        etc. – can be enjoyed by the community. Please check our <a
+                            href="https://www.facebook.com/zoe.coffeehouse#!/ZoeCoffeeHouseMiWuk?fref=ts">Facebook</a>
+                        page to see the newest up-coming events and artists.
+                    </p>
+                    <div><img alt="guitar" src="images/guitar.png" />
+                        <img alt="Poetry" src="images/poetry.png" />
+                    </div>
+                </div>
+
+                <div id="contact" class="tab-pane fade" role="tabpanel">
+                    <h1> Ways to Contact Us</h1>
+                    <div>
+                        <h3>Address:</h3>
+                        Zoe Coffee House<br />
+                        24680 Highway 108<br />
+                        P.O. Box 70<br />
+                        Mi Wuk Village, CA 95346 <br />
+                        209-586-7006<br />
+                        <a href=""><b>Directions</b></a><br />
+                        </br>
+                    </div>
+
+                    <div>
+                        <h3>Business Hours:</h3>
+                        Thurs - Mon:&nbsp;&nbsp;7AM TO 8PM<br />
+                        Office Email:<br />
+                        <a href="mailto:office@zoecoffeehouse.com">office@zoecoffeehouse.com</a><br />
+                        Website: <br /> <a href="http://www.zoecoffeehouse.com/">www.zoecoffeehouse.com</a><br />
+                        Online Ordering: <br /> <a
+                            href="http://www.leapset.com/order/restaurant/lpZoeCoffeeMwv">www.leapset.com</a>
+                        <br /><br />
+
+                    </div>
+
+                    <div>
+                        <iframe width="325" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=24680+Highway+108+Mi+Wuk+Village,+CA+95346&amp;aq=&amp;sll=37.269174,-119.306607&amp;sspn=9.559436,19.753418&amp;ie=UTF8&amp;hq=&amp;hnear=24680+California+108,+Mi-Wuk+Village,+Tuolumne,+California+95346&amp;ll=38.066377,-120.185066&amp;spn=0.009241,0.01929&amp;t=m&amp;z=14&amp;output=embed"></iframe><br />
+                        <a class="body_text_small"
+                            href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=24680+Highway+108+Mi+Wuk+Village,+CA+95346&amp;aq=&amp;sll=37.269174,-119.306607&amp;sspn=9.559436,19.753418&amp;ie=UTF8&amp;hq=&amp;hnear=24680+California+108,+Mi-Wuk+Village,+Tuolumne,+California+95346&amp;ll=38.066377,-120.185066&amp;spn=0.009241,0.01929&amp;t=m&amp;z=14">View
+                            Larger Map</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+            <!--^^^^^^Tabs Container End-->
+
+
+        </div>
+    </div>
+
+    <h4 class="footer_text">Copyright © 2019 Zoe Coffee House</h4>
+
+    </div>
+
+</body>
+
+</html>

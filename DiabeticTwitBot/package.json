@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "S30 Picture Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified"
+  },
+  "author": "Nathan Spring",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
