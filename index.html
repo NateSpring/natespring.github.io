@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-	!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141127538-2"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -14,6 +14,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-141127538-2');	
 	</script>
+
 
 	<!-- Font -->
 
@@ -37,22 +38,63 @@
 
 	<header>
 		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>Sonora, Ca</h5>
+								<h5>95370</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
 
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline "></i>
+							<div class="right-area">
+								<h3>(209)694-6171</h3>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5><a href="mailto:natespring92@gmail.com">natespring92@gmail.com</a></h5>
+								<h6>I will reply within 24 hours</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
+
+			<a class="downlad-btn" href="Resume.docx">Download Resume</a>
 		</div><!-- container -->
 	</header>
 
 	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/roundProfileMe.png" alt=""></div>
+						<h2><b>Nathan Spring</b></h2>
+						<h4 class="font-yellow">Web Developer</h4>
 
-		<div class="intro">
-			<h2><b>Nathan Spring</b></h2>
-			<h4 class="font-yellow">Web Developer</h4>
-
-			<ul class="social-icons">
-				<li><a href="https://www.linkedin.com/in/natespring/"><i class="ion-social-linkedin"></i></a></li>
-				<li><a href="https://github.com/NateSpring"><i class="ion-social-github"></i></a></li>
-				<li><a href="https://zerohour.home.blog/"><i class="ion-bookmark"></i></a></li>
-			</ul>
-		</div>
+						<ul class="social-icons">
+							<li><a href="https://www.linkedin.com/in/natespring/"><i
+										class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://github.com/NateSpring"><i class="ion-social-github"></i></a></li>
+							<li><a href="https://zerohour.home.blog/"><i class="ion-bookmark"></i></a></li>
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
 	</section><!-- intro-section -->
 
 	<section class="portfolio-section section">
@@ -69,7 +111,17 @@
 
 			<div class="portfoliocontainer">
 
-
+				<div class="p-ite">
+					<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
+					<img src="images/cocinademo.JPG" alt=""></a>
+					<p>A webpage I made for a local Mexican Restaurant utilizing Bootstrap 4 & jQuery. This was a
+						donation project to a business that didn't have a website.</p>
+					<button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
+						Project</button>
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
+						Code</button>
+				</div><!-- p-item -->
 				<div class="p-ite">
 					<h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
 					<img src="images/rattlescanDONE.jpg" alt=""></a>
@@ -126,17 +178,7 @@
 					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/ZoeCafe'">Check
 						Code</button>
 				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
-					<img src="images/cocinademo.JPG" alt=""></a>
-					<p>A webpage I made for a local Mexican Restaurant utilizing Bootstrap 4 & jQuery. This was a
-						donation project to a business that didn't have a website.</p>
-					<button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
-						Code</button>
-				</div><!-- p-item -->
+
 
 				<div class="p-ite">
 					<h3><a href="JacMan/index.html">JacMan</a></h3>
@@ -173,11 +215,7 @@
 						me. In my spare time, I love learning new web technologies and discovering the potential of
 						them, and myself. </p>
 
-					<p class="margin-b-50">To ready more about my journey as a web developer, and catch up on project
-						progress: <a class="bloglink" href="https://zerhour.home.blog/">Check Out My Blog!</a> It is
-						updated daily and has been for 160+ days consecutivly.
-					</p>
-					<iframe id="zerohourpeak" class="margin-b-50" src="https://zerohour.home.blog/"></iframe>
+					
 					<div class="row">
 						<div class="col-sm-6 col-md-6 col-lg-3">
 							<div class="radial-prog-area margin-b-30">

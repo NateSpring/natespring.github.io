@@ -1,15 +1,12 @@
 /*
 ====================================================
-
 * 	[Master Stylesheet]
 	
 	Theme Name :  
 	Version    :  
 	Author     :  
 	Author URI :  
-
 ====================================================
-
 	TOC
 	
 	1. PRIMARY STYLES
@@ -22,10 +19,7 @@
 	8. EDUCATION SECTION
 	9. COUNTER SECTION
 	10. FOOTER
-
 ====================================================
-
-
 /* ---------------------------------
 1. PRIMARY STYLES
 --------------------------------- */
@@ -612,5 +606,3 @@ header .downlad-btn:hover {
 	padding: 30px 0;
 	background: #28023D;
 }
-
-/*CAROUSEL*/
