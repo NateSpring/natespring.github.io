@@ -1,11 +1,6 @@
 /*
 ====================================================
 * 	[Master Stylesheet]
-	
-	Theme Name :  
-	Version    :  
-	Author     :  
-	Author URI :  
 ====================================================
 	TOC
 	
@@ -43,7 +38,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	word-wrap: break-word;
-	color: #333;
+	color: white;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button {
@@ -64,7 +59,6 @@ p {
 	line-height: 1.6;
 	font-size: 1.05em;
 	font-weight: 400;
-	color: #777;
 }
 
 h1 {
@@ -78,7 +72,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.8em;
+	font-size: 3em;
 }
 
 h4 {
@@ -114,6 +108,7 @@ b {
 
 img {
 	width: 100%;
+	border-radius: 1em;
 }
 
 li {
@@ -151,7 +146,7 @@ b.max-bold {
 button, .button {
 	position: relative;
 	display: inline-block;
-	background: rgb(10, 47, 255);
+	background: rgb(60, 77, 170);
 	color: white;
 	text-align: center;
 	border-radius: 0.5em;
@@ -161,7 +156,7 @@ button, .button {
 	border: 0;
 	cursor: pointer;
 	outline: 0;
-	font-weight: 300;
+	font-weight: 400;
 	-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -223,7 +218,7 @@ button, .button {
 }
 
 .font-lite-black {
-	color: #999;
+	color: #ddd;
 }
 
 /* ---------------------------------
@@ -231,10 +226,8 @@ button, .button {
 --------------------------------- */
 
 header {
-	position: absolute;
-	top: 30px;
-	left: 0;
-	right: 0;
+	position: relative;
+	height: 100vh;
 	z-index: 100;
 }
 
@@ -274,18 +267,58 @@ header .downlad-btn:hover {
 	-webkit-transform: translateY(-4px);
 	transform: translateY(-4px);
 }
-
+.intro a {
+	font-size: 1em;
+}
+.intro a:hover {
+	color: white;
+}
+.intro a span {
+	position: relative;
+	top: 0;
+	left: 50%;
+	width: 2em;
+	height: 2em;
+	border-left: 1em solid #8B6CD4;
+	border-bottom: 1em solid #ddd;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	-webkit-animation: sdb06 1.5s infinite;
+	animation: sdb06 2s infinite;
+	box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb06 {
+	0% {
+	  -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+	  opacity: 0;
+	}
+  }
+  @keyframes sdb06 {
+	0% {
+	  transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+	  transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+	  opacity: 0;
+	}
+  }
+  
 /* ---------------------------------
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section {
-	padding-top: 200px;
-	position: relative;
-	background-size: cover;
-	z-index: 1;
-	background-image: url(../../images/yosemiteDark.jpg);
-}
+
 
 .intro-section:before {
 	content: '';
@@ -310,21 +343,16 @@ header .downlad-btn:hover {
 }
 
 .intro {
-	padding: 0 20px;
-	margin-top: 100px;
+	height: inherit;
 	text-align: center;
-	background: #fff;
+	background-image: url("/images/yosemiteDark.jpg");
+	color: white;
+	font-size: 2em;
 }
 
-.intro .profile-img {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
-	top: -100px;
-	margin-bottom: -70px;
+#mainlogo {
+	width: 25%;
+	height: auto;
 }
 
 .intro .information>li {
@@ -372,7 +400,7 @@ header .downlad-btn:hover {
 
 .portfolio-section {
 	padding: 0;
-	
+	background-color: #463A6C;
 }
 
 .portfolio-section .portfolioFilter {
@@ -410,7 +438,7 @@ header .downlad-btn:hover {
 	display: inline;
 }
 .p-ite img {
-	width: 75%;
+	width: 50%;
 	height: auto;
 }
 .p-ite p {
