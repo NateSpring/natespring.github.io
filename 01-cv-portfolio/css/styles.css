@@ -450,7 +450,10 @@ header .downlad-btn:hover {
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
+.about-section {
+	background-color: #463A6C;
 
+}
 .radial-progress {
 	position: relative;
 	max-width: 200px;
@@ -564,7 +567,7 @@ header .downlad-btn:hover {
 	padding: 100px 0 70px;
 	background-size: cover;
 	z-index: 1;
-	background-image: url(../../images/slider-2-1920x600.jpg);
+	background-color: #463A6C;
 	color: #fff;
 }
 
