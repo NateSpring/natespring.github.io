@@ -434,12 +434,13 @@ header .downlad-btn:hover {
 	border-bottom: 3px solid black;
 }
 
-.portfolio-section .p-ite a {
-	display: inline;
-}
+
 .p-ite img {
 	width: 50%;
 	height: auto;
+	display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .p-ite p {
 	text-align: center;
