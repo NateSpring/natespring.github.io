@@ -1,268 +1,242 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html>
 
 <head>
 	<title>Nathan Spring</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141127538-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'UA-141127538-2');	
-	</script>
-
-
-	<!-- Font -->
-
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
-
-	<!-- Stylesheets -->
-
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-
-	<link href="common-css/ionicons.css" rel="stylesheet">
-
-	<link href="common-css/fluidbox.min.css" rel="stylesheet">
-
-	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
-
-	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
-
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
 
-	<header>
-		<div class="intro">
-			<img id="mainlogo" src="/images/NS-Logo.png">
-			<h2><b>Nathan Spring</b></h2>
-			<h4 class="font-yellow">Web Developer</h4>
+		<!-- Header -->
+		<div id="header">
 
-			<ul class="social-icons">
-				<li><a href="https://www.linkedin.com/in/natespring/"><i class="ion-social-linkedin"></i></a></li>
-				<li><a href="https://github.com/NateSpring"><i class="ion-social-github"></i></a></li>
-				<li><a href="https://zerohour.home.blog/"><i class="ion-bookmark"></i></a></li>
-			</ul>
-			<a href="#portfolio-section"><span></span>Scroll</a>
+			<!-- Inner -->
+			<div class="inner">
 
-		</div><!-- intro -->
-	</header>
+				<footer>
+					<a href="#banner" class="button circled scrolly">Begin</a>
+				</footer>
+			</div>
 
-	<section class="portfolio-section section" id="portfolio-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>Portfolio</b></h3>
-						<h6 class="font-lite-black"><b>MY WORK</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#contact">Contact</a></li>
 
-			</div><!-- row -->
+				</ul>
+			</nav>
 
-			<div class="portfoliocontainer">
+		</div>
 
-				<div class="p-ite">
-					<h3><a href="https://marsweather.netlify.com">Mars Weather Report</a></h3>
-					<img src="images/marsweather.JPG" alt="">
+		<!-- Banner -->
+		<section id="banner">
+			<h1>Welcome to my <strong>Portfolio</strong></h1>
+			<h2>More projects on my <a id="zerohourlink" href="https://github.com/NateSpring" class="icon fa-github">
+					GitHub</a></h2>
+		</section>
+
+		<section id="projects"></section>
+		<section class="carousel">
+			<div class="reel">
+
+				<article>
+					<a href="https://github.com/NateSpring/FacebookAutoPoster"
+					 class="image featured"><img src="images/Facebook.png"
+							alt="" /></a>
+					<header>
+						<h3><a href="https://github.com/NateSpring/FacebookAutoPoster">Facebook New Member Welcomer</a></h3>
+					</header>
 					<p>Ever wonder how cold Mars is right now? This web app brings that very information to you and
 						more. This captures data from the InSight Rover on Mars and parses it into a readable UI. Built
-						from scratch with React.JS.</p>
+						from scratch with React.JS.
+
+					</p>
+	
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/FacebookAutoPoster'">Check
+						Code</button>
+				</article>
+				<article>
+					<a href="https://marsweather.netlify.com/" class="image featured"><img src="images/marsweather.JPG"
+							alt="" /></a>
+					<header>
+						<h3><a href="http://marsweather.netlify.com">Mars Weather Report</a></h3>
+					</header>
+					<p>Ever wonder how cold Mars is right now? This web app brings that very information to you and
+						more. This captures data from the InSight Rover on Mars and parses it into a readable UI. Built
+						from scratch with React.JS.
+
+					</p>
 					<button class="checkcode" onclick="location.href = 'https://marsweather.netlify.com/'">Open
 						Project</button>
 					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/MarsWeatherForecast'">Github
+						onclick="location.href = 'https://github.com/NateSpring/MarsWeatherForecast'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="https://newellautoservice.netlify.com">Newell Auto Service</a></h3>
-					<img src="images/newellautohead.JPG" alt="">
-					<p>A close friend of mine needed a fast and modern website to offer his auto repair services. In
-						this project I used Gatsby.js(framework based on React) to build the static page because it
-						suited all of the needs and is incredibly fun to work with. </p>
-					<button class="checkcode" onclick="location.href = 'https://newellautoservice.netlify.com/'">Open
+				</article>
+				<article>
+					<a href="http://newellautoservice.netlify.com" class="image featured"><img
+							src="images/newellautohead.JPG" alt="" /></a>
+					<header>
+						<h3><a href="http://newellautoservice.netlify.com">Newell Auto Service</a></h3>
+					</header>
+					<p>Using Gatsby.JS and React, this website was made for a local up and coming mobile automotive
+						service. Building a static site with React ensured lighting-fast speed and reliability.
+					</p>
+					<button class="checkcode" onclick="location.href = 'http://newellautoservice.netlify.com'">Open
 						Project</button>
 					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/NewellAutoService'">Github
+						onclick="location.href = 'https://github.com/NateSpring/NewellAutoService'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="SerpentSearch/index.html">RattleScan</a></h3>
-					<img src="images/rattlescanDONE.jpg" alt=""></a>
-					<p>This web app is for finding and reporting rattlesnake findings. Users can use this
-						information to avoid potentially dangerous areas and log their own sightings of these poisonous
-						snakes.<br>Skills: JavaScript, HTML, CSS, Google Maps
+				</article>
+				<article>
+					<a href="https://rattlescan.netlify.com/" class="image featured"><img
+							src="images/rattlescanDONE.jpg" alt="" /></a>
+					<header>
+						<h3><a href="https://rattlescan.netlify.com/">RattleScan</a></h3>
+					</header>
+					<p>This web app is for finding and reporting rattlesnake sightings. Other users can use this
+						information to avoid potentially dangerous areas.<br>Skills: JavaScript, HTML, CSS, Google Maps
 						API.</p>
 					<button class="checkcode" onclick="location.href = 'https://rattlescan.netlify.com/'">Open
 						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Github
+					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/RattleScan'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="https://twitter.com/SugarSearch">Diabetic Recipe Twitter-Bot (Node.js)</a></h3>
-					<img src="images/twitbot.JPG" alt=""></a>
-					<p>I built this project with Node.JS to search Twitter every hour to find diabetic recipes and then
-						retweet them. I'm hoping this helps people find healthy foods.</p>
+				</article>
+
+				<article>
+					<a href="BloodBrother/index.html" class="image featured"><img src="images/bloodbrotherscreencap.gif"
+							alt="" /></a>
+					<header>
+						<h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
+					</header>
+					<p>Takes a users blood glucose input and returns a list of foods with an acceptable carbohydrate
+						count. <br> Skills: JavaScript, HTML, CSS, Handling API data (JSON).</p>
+					<button class="checkcode" onclick="location.href = 'BloodBrother/index.html'">Open
+						Project</button>
+					<button class="checkcode"
+						onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">Check
+						Code</button>
+				</article>
+				<article>
+					<a href="https://github.com/NateSpring/Diabetic-Twitter-Bot"
+					 class="image featured"><img src="images/twitbot.JPG"
+							alt="" /></a>
+					<header>
+						<h3><a href="https://github.com/NateSpring/Diabetic-Twitter-Bot">Diabetic Twitter Bot</a></h3>
+					</header>
+					<p>Built with Node, this searches Twitter for posts with different Diabetic-related recipes and meals. This app then retweets the collected posts for users to easily find.
+					</p>
 					<button class="checkcode" onclick="location.href = 'https://twitter.com/SugarSearch'">Open
 						Project</button>
 					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/Diabetic-Twitter-Bot'">Github
+						onclick="location.href = 'https://github.com/NateSpring/Diabetic-Twitter-Bot'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
-					<img src="images/cocinademo.JPG" alt=""></a>
-					<p>A wesite for a local Mexican restaurant. Prior to this all they had was a misinformed Yelp page.
-						This website solved various information problems for them including hours of business, location,
-						and an online menu.</p>
-					<br> Skills: HTML, CSS, Bootstrap
-					<button class="checkcode" onclick="location.href = 'https://cocinasonora.netlify.com/'">Open
-						Project</button>
-					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Github
-						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
-					<img src="images/avbg2.gif" alt=""></a>
-					<p>This web app displays the average of multiple blood glucose readings. I designed
-						this tool to help Diabetics stay healthy and reduce their overall A1C.
+				</article>
+				<article>
+					<a href="AverageGlucose/index.html" class="image featured"><img src="images/avbg2.gif" alt="" /></a>
+					<header>
+						<h3><a href="AverageGlucose/index.html">GlucoseAverage</a></h3>
+					</header>
+					<p>This is a simple web app that displays the average of multiple blood glucose readings.
 						<br>Skills: JavaScript, HTML, CSS.</p>
-					<button class="checkcode" onclick="location.href = 'https://glucoseaverage.netlify.com/'">Open
+					<button class="checkcode" onclick="location.href = 'AverageGlucose/index.html'">Open
 						Project</button>
 					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Github
+						onclick="location.href = 'https://github.com/NateSpring/AverageGlucoseCalculator'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="BloodBrother/index.html">BloodBrother</a></h3>
-					<img src="images/bloodbrotherscreencap.gif" alt=""></a>
-					<p>This webapp takes a users blood glucose and returns a list of foods with an acceptable
-						carbohydrate
-						levels. Carbohydrates increase blood sugar and diabetics need to keep an eye on the consumed
-						levels per meal. <br> Skills: JavaScript, HTML, CSS, Handling API data (JSON).</p>
-					<button class="checkcode" onclick="location.href = 'https://bloodbrother.netlify.com/'">Open
+				</article>
+
+				<article>
+					<a href="Cocina/index.html" class="image featured"><img src="images/cocinademo.JPG" alt="" /></a>
+					<header>
+						<h3><a href="Cocina/index.html">Cocina Restaurant</a></h3>
+					</header>
+					<p>A static webpage I made for a local Mexican Restaurant utilizing Bootstrap 4 & jQuery.</p>
+					<button class="checkcode" onclick="location.href = 'Cocina/index.html'">Open
 						Project</button>
 					<button class="checkcode"
-						onclick="location.href = 'https://github.com/NateSpring/BloodBrother/tree/master/BloodBrother'">GitHub
+						onclick="location.href = 'https://github.com/NateSpring/natespring.github.io/blob/master/Cocina/index.html'">Check
 						Code</button>
-				</div><!-- p-item -->
-				<div class="p-ite">
-					<h3><a href="ZoeCafe/index.html">Zoe Cafe</a></h3>
-					<img src="images/zoecafe.JPG" alt=""></a>
-					<p>This local Church-owned website was previously not mobile friendly and incredibly slow. I rebuilt
-						it to be mobile-friendly first while retaining the original style and graphics that the customer
-						prefers. I used modern web tools like Bootstrap to speed things up, and converted it
-						to a single page website. </p>
-					<button class="checkcode" onclick="location.href = 'https://zoecoffeehouse.netlify.com/'">Open
-						Project</button>
-					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/ZoeCafe'">Github
-						Code</button>
-				</div><!-- p-item -->
-
-
-				<div class="p-ite">
-					<h3><a href="JacMan/index.html">JacMan</a></h3>
-					<img src="images/JacMAN.gif" alt=""></a>
-					<p>I created this platformer for my 4 year old son, Jack.
-						This was built primarily using JavaScript and the Phaser framework. I also utilized Photoshop to
-						create the character animation template. </p>
-					<button class="checkcode" onclick="location.href = 'https://jacman.netlify.com/'">Open
-						Project</button>
-					<button class="checkcode" onclick="location.href = 'https://github.com/NateSpring/JacMan'">GitHub
-						Code</button>
-				</div><!-- p-item -->
+				</article>
 
 
 
-			</div><!-- portfolioContainer -->
 
-	</section><!-- portfolio-section -->
+		</section>
 
 
-	<section class="about-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3><b>About me</b></h3>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-12">
-					<p class="margin-b-50">I'm Nathan Spring, <b> I love to build and learn!</b> My background of
-						customer-service and problem-solving has led me down a unique path in software development. I am
-						fueled by my passion to help others through building web-apps to solve specific problems. My
-						hunger for knowledge and determination to succeed has contributed to months of consistent
-						learning
-						and tackling intricate projects.
-						The current technology stacks I'm using are: HTML/CSS, JavaScript, Node.JS, React, jQuery, and
+		<section id="aboutme"></section>
+
+		<div class="reswrapper">
+			<div class="aboutme">
+				<img id="profilepic" src="images/roundProfileMe.png">
+				<h1>Nathan Spring</h2>
+					<br>
+
+					<p> I'm Nathan Spring, I love to build and learn! My background of customer-service and
+						problem-solving
+						has led me down a unique path in software development. I am fueled by my passion to help others
+						through building web-apps to solve specific problems. My hunger for knowledge and determination
+						to
+						succeed has contributed to months of consistent learning and tackling intricate projects. The
+						current technology stacks I'm using are: HTML/CSS, JavaScript, Node.JS, React, jQuery, and
 						Bootstrap; although I'm constantly learning new frameworks, libraries, and technologies. In my
-						spare time I love to fix anything that comes my way, especially when it challenges how far I can
-						think outside of the box. If you'd like to hear more about how I want to build an autonomous
-						garden, please get in contact with me!</p>
+						spare
+						time I love to fix anything that comes my way, especially when it challenges how far I can think
+						outside of the box. If you'd like to hear more about how I want to build an autonomous garden,
+						please get in contact with me!</p>
+			</div>
 
-				</div>
-			</div><!-- col-sm-8 -->
-		</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- about-section -->
-
-	<section class="counter-section" id="counter">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="1400"
-									data-count="7">0</span></b></h1>
-						<h5 class="desc"><b>Projects Completed</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="700"
-									data-count="179">0</span></b></h1>
-						<h5 class="desc"><b>Day Coding Streak</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="2000"
-									data-count="915">0</span></b></h1>
-						<h5 class="desc"><b>Cups of Coffee</b></h5>
-					</div><!-- margin-b-30 -->
-				</div><!-- col-md-3-->
-
-			</div><!-- row-->
-		</div><!-- container-->
-	</section><!-- counter-section-->
+		</div>
 
 
+		<!-- Contact -->
+		<footer id="footer">
+			<section class="contact" id="contact">
+				<header>
+					<h3>Please Contact me!</h3>
+				</header>
+				<ul class="icons">
+					<li><a href="https://github.com/NateSpring" class="icon fa-github"><span
+								class="label">GitHub</span></a>
+					</li>
+					<li><a href="https://www.linkedin.com/in/natespring/" class="icon fa-linkedin"><span
+								class="label">Linkedin</span></a></li>
+					<li><a href="mailto: natespring92@gmail.com">Email</a></li>
+				</ul>
+			</section>
 
-	<!-- SCIPTS -->
+			<!-- Copyright -->
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; Nate Spring 2019. All rights reserved.</li>
+					</li>
+				</ul>
+			</div>
+	</div>
+	</footer>
 
-	<script src="common-js/jquery-3.2.1.min.js"></script>
 
-	<script src="common-js/tether.min.js"></script>
+	</div>
 
-	<script src="common-js/bootstrap.js"></script>
-
-	<script src="common-js/isotope.pkgd.min.js"></script>
-
-	<script src="common-js/jquery.waypoints.min.js"></script>
-
-	<script src="common-js/progressbar.min.js"></script>
-
-	<script src="common-js/jquery.fluidbox.min.js"></script>
-
-	<script src="common-js/scripts.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
