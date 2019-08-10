@@ -4,6 +4,7 @@
 
 html {
 	box-sizing: border-box;
+	
 }
 
 *, *:before, *:after {
@@ -11,8 +12,8 @@ html {
 }
 
 body {
-	background-color:5b5b5b;
-	color: #5b5b5b;
+	background-color:#2b252c;
+	color: white;
 	font-size: 15pt;
 	line-height: 1.85em;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -456,6 +457,7 @@ body.homepage.is-preload #header:after {
 	font-size: 1em;
 }
 #banner h1{
+	padding-top: 8px;
 	font-size: 2.5em;
 }
 #banner header>p {
@@ -577,6 +579,7 @@ body.homepage.is-preload #header:after {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 0;
+	border-bottom: 3px white dotted;
 }
 
 .carousel .forward, .carousel .backward {
@@ -657,13 +660,16 @@ body.homepage.is-preload #header:after {
 .carousel article {
 	display: inline-block;
 	width: 25%;
-	height: auto;
-	background: #fff;
+	height: 77vh;
+	background: #2b252c;
 	text-align: center;
 	padding: 0 1em 3em 1em;
 	margin: 0 2em 0 0;
 	white-space: normal;
 	opacity: 1.0;
+	border: 1px white solid;
+	border-radius: 10px;
+	overflow: hidden;
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -681,10 +687,17 @@ body.homepage.is-preload #header:after {
 	width: auto;
 	margin-right: -2em;
 	margin-bottom: 3em;
+	border-radius: 10px;
+
 }
 
 .carousel article p {
 	text-align: center;
+}
+.carousel article a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
 }
 
 /* Resume/About Section */
@@ -695,40 +708,19 @@ body.homepage.is-preload #header:after {
 	padding: 0;
 	background-color: white;
 	text-align: center;
-	display: flex;
+	display: grid;
 }
-
-.skills {
-	width: 100%;
-	height: auto;
-}
-
-.skills>img {
-	width: 100%;
-	height: auto;
-}
-
-#resumetext {
-	text-align: center;
-	padding: 5px;
-	margin: auto;
-	font-size: 2em;
-	border: 5px solid black;
-}
-
 #profilepic {
-	width: 50%;
+	width: 25%;
 	height: auto;
 }
-
 .aboutme {
-	font-size: 1em;
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	word-break: break-word;
-	white-space: normal;
-	padding: 5px;
+	font-size: 1.25em;
+	background: #2b252c;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	
 }
 
 /* Wide */
