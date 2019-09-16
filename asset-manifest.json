@@ -1,10 +1,12 @@
 {
-  "main.css": "static/css/main.e3e483d2.css",
-  "main.css.map": "static/css/main.e3e483d2.css.map",
-  "main.js": "static/js/main.122ae983.js",
-  "main.js.map": "static/js/main.122ae983.js.map",
+  "main.css": "static/css/main.bdb0b7f4.css",
+  "main.css.map": "static/css/main.bdb0b7f4.css.map",
+  "main.js": "static/js/main.6493b5a0.js",
+  "main.js.map": "static/js/main.6493b5a0.js.map",
   "static/media/all.min.css": "static/media/all.min.164a58dc.css",
+  "static/media/bloodbrother.JPG": "static/media/bloodbrother.5b4127be.JPG",
   "static/media/bootstrap.min.css": "static/media/bootstrap.min.a15c2ac3.css",
+  "static/media/jacman.JPG": "static/media/jacman.5709f430.JPG",
   "static/media/mars.jpg": "static/media/mars.72f218f1.jpg",
   "static/media/mdb.css": "static/media/mdb.7be2935c.css",
   "static/media/rattle.png": "static/media/rattle.c4ae5995.png",
@@ -14,6 +16,5 @@
   "static/media/roboto-300.woff2": "static/media/roboto-300.c0cc9c92.woff2",
   "static/media/roboto-400.woff2": "static/media/roboto-400.ece6673e.woff2",
   "static/media/roboto-900.woff2": "static/media/roboto-900.2e17a648.woff2",
-  "static/media/roundProfileMe.png": "static/media/roundProfileMe.ae70d417.png",
-  "static/media/sugarsearch.jpg": "static/media/sugarsearch.e8a33413.jpg"
+  "static/media/roundProfileMe.png": "static/media/roundProfileMe.ae70d417.png"
 }
