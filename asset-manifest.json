@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.465c1526.css",
-  "main.css.map": "static/css/main.465c1526.css.map",
-  "main.js": "static/js/main.648e7136.js",
-  "main.js.map": "static/js/main.648e7136.js.map",
+  "main.css": "static/css/main.1e00efec.css",
+  "main.css.map": "static/css/main.1e00efec.css.map",
+  "main.js": "static/js/main.5b8b349c.js",
+  "main.js.map": "static/js/main.5b8b349c.js.map",
   "static/media/Potra.ttf": "static/media/Potra.4c166a66.ttf",
   "static/media/all.min.css": "static/media/all.min.164a58dc.css",
   "static/media/bootstrap.min.css": "static/media/bootstrap.min.a15c2ac3.css",
@@ -20,5 +20,6 @@
   "static/media/roboto-900.woff2": "static/media/roboto-900.2e17a648.woff2",
   "static/media/roundProfileMe.png": "static/media/roundProfileMe.ae70d417.png",
   "static/media/starcruiser.ttf": "static/media/starcruiser.038bced4.ttf",
-  "static/media/turbodirect.gif": "static/media/turbodirect.fda40489.gif"
+  "static/media/turbodirect.gif": "static/media/turbodirect.fda40489.gif",
+  "static/media/xcompact.gif": "static/media/xcompact.1c19c38d.gif"
 }
